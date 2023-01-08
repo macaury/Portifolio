@@ -34,9 +34,8 @@
 }
 
 .linha {
-    border: 1px solid;
+    border-bottom: 1px solid;
     border-color: red;
-    max-width: 15%;
 }
 
 svg {
@@ -65,4 +64,13 @@ p {
 
 a:hover {
     background-color: red;
+}
+
+.No_bg:hover{
+    background: none;
+}
+
+.bi-github , .bi-linkedin{
+    height: 25px;
+    width: 25px;
 }

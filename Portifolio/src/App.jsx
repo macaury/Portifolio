@@ -1,13 +1,17 @@
 import React from "react";
-import "./css/main.css";
 
-import Navbar from "./components/Navbar";
+import Barra_nav from "./components/Barra_nav";
+
+
+import "./css/main.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
     <>
       <div className="">
-        <Navbar />
+        <Barra_nav />
       </div>
     </>
   );

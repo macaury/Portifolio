@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./css/main.css";
 
-import Navbar from "./components/Navbar";
 import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
