@@ -9,9 +9,8 @@
     font-size: 200% !important;
 }
 
-.titulo_macaury {
-    padding-top: 7%;
-    font-size: 300%;
+.titulo{
+    color: red;
 }
 
 .aviso {
@@ -34,7 +33,7 @@
 }
 
 .linha {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     border-color: red;
 }
 

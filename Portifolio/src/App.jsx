@@ -1,6 +1,7 @@
 import React from "react";
 
 import Barra_nav from "./components/Barra_nav";
+import Titulo from "./components/titulo";
 
 
 import "./css/main.css";
@@ -12,6 +13,7 @@ function App() {
     <>
       <div className="">
         <Barra_nav />
+        <Titulo/>
       </div>
     </>
   );
