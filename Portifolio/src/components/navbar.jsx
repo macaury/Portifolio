@@ -1,9 +1,13 @@
 import React from "react";
 
-function navbar() {
-  <>
-    <div className="hello">hello,world</div>
-  </>;
-}
+const navbar = () => {
+  return (
+    <>
+      <div className="container">
+        
+      </div>
+    </>
+  );
+};
 
 export default navbar;
