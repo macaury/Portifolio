@@ -1,0 +1,68 @@
+
+
+.painelPrincipal {
+    min-height: 400px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 200% !important;
+}
+
+.titulo_macaury {
+    padding-top: 7%;
+    font-size: 300%;
+}
+
+.aviso {
+    font-size: 150%;
+}
+
+.titulo {
+    font-size: 175%;
+}
+
+.teste {
+    margin: 10px;
+    width: 60px;
+    min-height: 50px;
+}
+
+.skill {
+    padding: 20px;
+    margin: 20px;
+}
+
+.linha {
+    border: 1px solid;
+    border-color: red;
+    max-width: 15%;
+}
+
+svg {
+    color: red;
+}
+
+svg:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+.btn {
+    border: 1px solid;
+    border-color: black !important;
+}
+
+
+img {
+    max-width: 250px;
+}
+
+p {
+    display: inline-flex;
+    max-width: 50%;
+}
+
+a:hover {
+    background-color: red;
+}
