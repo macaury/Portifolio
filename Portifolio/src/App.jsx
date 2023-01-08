@@ -1,17 +1,7 @@
-import './css/main.css';
-
+import React from "react";
+import Nav_bar from "./components/navbar.jsx";
 
 function App() {
-
-
-  return (
-      <>
-      
-      
-      
-      
-      </>
-    );
+  return <></>;
 }
-
 export default App;
