@@ -1,9 +1,22 @@
 import React from "react";
+import Container from "react-bootstrap/esm/Container";
+
+
 
 function projetos() {
-  <>
-    <div className="hello">hello,world</div>
-  </>;
+  return (
+    <>
+      <Container>
+        <span className="titulo linha">Projetos</span>
+        <div>
+
+        </div>
+
+
+        
+      </Container>
+    </>
+  );
 }
 
 export default projetos;

@@ -11,10 +11,10 @@ const Barra_nav = () => {
         <Container>
           <Navbar.Brand className="No_bg" href="#home">Home</Navbar.Brand>
           <div>
-            <Nav className="">
-              <Nav.Link className="No_bg">
-                <Button variant="">
-                  <i class="bi bi-github">
+            <Nav>
+              <Nav.Link href={"#"}  className="No_bg">
+                <Button variant="" >
+                  <i class="bi bi-github" >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -28,8 +28,8 @@ const Barra_nav = () => {
                   </i>
                 </Button>
               </Nav.Link>
-              <Nav.Link className=" No_bg">
-                <Button variant="">
+              <Nav.Link href={"#"}  className=" No_bg">
+                <Button  variant="">
                   <i class="bi bi-linkedin">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
