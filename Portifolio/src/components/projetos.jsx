@@ -17,13 +17,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span className="text_card">
+              <Card.Text className="text_card">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
 
@@ -31,13 +34,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span>
+              <Card.Text >
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
 
@@ -45,13 +51,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span>
+              <Card.Text >
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
         </Row>
@@ -61,13 +70,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span>
+              <Card.Text >
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
 
@@ -75,13 +87,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span className="justify">
+              <Card.Text  className="justify">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
 
@@ -89,13 +104,16 @@ function projetos() {
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
-              <span>
+              <Card.Text >
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </span>
+              </Card.Text>
             </Card.Body>
             <Button className="mb-3" variant="primary">
               Go somewhere
+            </Button>
+                      <Button className="mb-3" variant="dark">
+              Preview
             </Button>
           </Card>
         </Row>

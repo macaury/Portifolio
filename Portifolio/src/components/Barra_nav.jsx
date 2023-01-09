@@ -1,9 +1,17 @@
 import React from "react";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+
+import Button from "react-bootstrap/esm/Button";
+
 import { DiGithubBadge } from "react-icons/di";
+
 import { FaLinkedin } from "react-icons/fa";
+
+import { MdDarkMode } from "react-icons/md";
+import { MdOutlineDarkMode } from "react-icons/md";
 
 const Barra_nav = () => {
   return (
@@ -15,12 +23,15 @@ const Barra_nav = () => {
           </Navbar.Brand>
           <div>
             <Nav>
-              <Nav.Link href={"#"} >
+              <Nav.Link href={"#"}>
                 <DiGithubBadge className="bi" />
               </Nav.Link>
 
               <Nav.Link href={"#"}>
                 <FaLinkedin className="bi" />
+              </Nav.Link>
+              <Nav.Link>
+                <MdDarkMode />
               </Nav.Link>
             </Nav>
           </div>

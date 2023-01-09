@@ -6,14 +6,19 @@ import Col from "react-bootstrap/Col";
 
 import { DiJava } from "react-icons/di";
 import { DiPhp } from "react-icons/di";
+
+
 import { DiCss3 } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
 
+
 import { SiJavascript } from "react-icons/si";
 
+import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
+import { RxFigmaLogo } from "react-icons/rx";
 
 function tecnologias() {
   return (
@@ -22,7 +27,7 @@ function tecnologias() {
         <span className="titulo linha">Tecnológias</span>
         <Row className="justify-content-md-center">
             <DiJava className="icon"/>
-            <DiPhp className="icon" />
+            <FaPhp className="icon" />
             <DiCss3 className="icon" />
             <DiHtml5 className="icon" />
             </Row>
@@ -31,7 +36,7 @@ function tecnologias() {
             <SiJavascript className="icon" />
             <FaBootstrap className="icon" />
             <FaReact className="icon" />
-            <FaFigma className="icon" />
+            <RxFigmaLogo className="icon" />
         </Row>
       </Container>
     </>
