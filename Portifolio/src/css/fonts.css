@@ -1,6 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Times New Roman', 'Times', 'serif';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+}
+
+.titulo_hab,
+.Barra_navegacao span {
+  font-weight: 300;
+}
+
+.titulo p {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.titulo p span {
+  font-weight: 200;
+}
+
+.titulo_hab {
+  font-size: 2rem;
+}
+
+.coder span {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.Barra_navegacao span {
+  font-size: 20px;
 }

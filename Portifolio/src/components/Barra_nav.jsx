@@ -10,33 +10,36 @@ import { DiGithubBadge } from "react-icons/di";
 
 import { FaLinkedin } from "react-icons/fa";
 
-import { MdDarkMode } from "react-icons/md";
-import { MdOutlineDarkMode } from "react-icons/md";
-
-const iiicon =  "../assets/icon_key.svg";
-
 const Barra_nav = () => {
   return (
     <>
-      <Navbar className="linha" bg="outline-light" expand="lg">
+      <Navbar className="Barra_navegacao linha" bg="outline-light" expand="lg">
         <Container>
           <Navbar.Brand className="No_bg" href="#home">
             M.Carvalho
           </Navbar.Brand>
-          <div>
-            <Nav>
-              <Nav.Link href={"#"}>
-                <DiGithubBadge className="bi" />
-              </Nav.Link>
-
-              <Nav.Link href={"#"}>
-                <FaLinkedin className="bi" />
-              </Nav.Link>
-              <Nav.Link>
-                <MdDarkMode />
-              </Nav.Link>
-            </Nav>
-          </div>
+          <Nav >
+            <Nav.Link href={"#"}>
+              <span>inicio</span>
+            </Nav.Link>
+            <Nav.Link href={"#"}>
+              <span> Sobre mim </span>
+            </Nav.Link>
+            <Nav.Link href={"#"}>
+              <span>projetos</span>
+            </Nav.Link>
+            <Nav.Link href={"#"}>
+              <span>Habilidades</span>
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href={"#"}>
+              <DiGithubBadge className="bi" />
+            </Nav.Link>
+            <Nav.Link href={"#"}>
+              <FaLinkedin className="bi" />
+            </Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
     </>

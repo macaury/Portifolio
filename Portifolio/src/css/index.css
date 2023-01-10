@@ -1,37 +1,51 @@
 .navbar-brand {
-    font-size: 200% !important;
+  font-size: 200% !important;
+}
+.Barra_navegacao {
+  height: 6rem;
 }
 
-.titulo{
-    color: red;
+.Barra_navegacao span:hover {
+  transition-duration: 1s;
+  border-bottom: solid 2px;
 }
 
-.titulo {
-    font-size: 200%;
+.titulo p span,
+.titulo_hab,
+.Barra_navegacao span:hover,
+.coder span {
+  color: rgb(251, 72, 72);
+}
+
+.cite_scroll {
+  font-size: 18px;
 }
 
 .linha {
-    border-bottom: 3px solid;
-    border-color: red;
+  border-bottom: 3px solid;
+  border-color: red;
 }
 
 .bi {
-    color: red;
-    width: 30px;
-    height: 30px;
+  color: red;
+  width: 30px;
+  height: 30px;
 }
 
 svg:hover {
-    transform: rotate(360deg);
-    transition-duration: 2s;
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
-.icon{
-    height:6rem;
-    width: 6rem;
+.icon {
+  height: 6rem;
+  width: 6rem;
 }
 
-.card_sty{
-    width: 25rem;
-    margin: 20px;
+.card_sty {
+  width: 25rem;
+  margin: 20px;
+}
+.box_inicio {
+  min-height: 50rem;
 }
