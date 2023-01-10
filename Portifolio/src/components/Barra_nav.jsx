@@ -13,13 +13,15 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
 
+const iiicon =  "../assets/icon_key.svg";
+
 const Barra_nav = () => {
   return (
     <>
       <Navbar className="linha" bg="outline-light" expand="lg">
         <Container>
           <Navbar.Brand className="No_bg" href="#home">
-            Home
+            M.Carvalho
           </Navbar.Brand>
           <div>
             <Nav>

@@ -2,7 +2,7 @@ import React from "react";
 
 import Container from "react-bootstrap/esm/Container";
 
-function titulo() {
+function quemSou() {
   return (
     <>
       <Container>
@@ -16,4 +16,4 @@ function titulo() {
   );
 }
 
-export default titulo;
+export default quemSou;

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Barra_nav from "./components/Barra_nav";
-import Titulo from "./components/titulo";
+import Titulo from "./components/inicio";
 import Tecnologias from "./components/tecnologias";
 import Projetos from "./components/projetos";
 import Footer from "./components/footer"
@@ -16,8 +16,8 @@ function App() {
       <div className="">
         <Barra_nav />
         <Titulo/>
-        <Tecnologias/>
         <Projetos/>
+        <Tecnologias/>
         <Footer/>
       </div>
     </>
