@@ -82,5 +82,9 @@
   background-color: whitesmoke;
   margin: 10px;
   border-radius: 10px;
+  transition: all .5s;
+}
 
+.bg_projetos{
+  background-color: whitesmoke;
 }

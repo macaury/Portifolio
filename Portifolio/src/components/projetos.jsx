@@ -10,7 +10,7 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <Card>
+      <div className="bg_projetos">
         <Card.Header>
           <Container>
             <Row
@@ -95,7 +95,7 @@ function projetos() {
             </Row>
           </Container>
         </Card.Header>
-      </Card>
+      </div>
     </>
   );
 }
