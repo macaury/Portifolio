@@ -18,7 +18,7 @@ const Barra_nav = () => {
           <Navbar.Brand className="No_bg" href="#home">
             M.Carvalho
           </Navbar.Brand>
-          <Nav >
+          <Nav>
             <Nav.Link href={"#"}>
               <span>inicio</span>
             </Nav.Link>

@@ -1,3 +1,7 @@
+*{
+  cursor:default;
+}
+
 .navbar-brand {
   font-size: 200% !important;
 }
@@ -6,10 +10,19 @@
 }
 
 .Barra_navegacao span:hover {
-  transition-duration: 1s;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px rgb(251, 72, 72);
+  cursor: pointer;
+
+}
+.card_sty:hover{
+  border: 0.5px solid rgb(251, 72, 72);
 }
 
+.Barra_navegacao span:hover,
+.card_sty:hover {
+  transition-duration: 1s;
+
+}
 
 .titulo p span,
 .titulo_hab,
@@ -27,15 +40,29 @@
   border-color: red;
 }
 
+.bi:hover {
+  transform: rotate(360deg);
+  transition-duration: 1.5s;
+  cursor: pointer;
+
+}
+
 .bi {
   color: red;
   width: 30px;
   height: 30px;
 }
 
-svg:hover {
-  transform: rotate(360deg);
-  transition-duration: 2s;
+
+
+
+.teste_bg:hover {
+  border :  0.5px solid red;
+  border-radius: 20px;
+  transition-duration: 0.8s;
+  color: red;
+  transform:scale(1.2);
+  cursor: pointer;
 }
 
 .icon {
@@ -49,4 +76,11 @@ svg:hover {
 }
 .box_inicio {
   min-height: 50rem;
+}
+
+.teste_bg{
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 10px;
+
 }

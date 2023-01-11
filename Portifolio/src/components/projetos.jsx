@@ -11,19 +11,24 @@ function projetos() {
   return (
     <>
       <Card>
-        <Card.Header >
+        <Card.Header>
           <Container>
             <Row
               className="justify-content-md-between habilidades"
-              style={{ paddingTop: "5%" , paddingBottom : "5%"}}
+              style={{ paddingTop: "5%", paddingBottom: "5%" }}
             >
-              <span className="titulo_hab text-center " style={{marginBottom:"10px" ,fontWeight: "600",
-  fontSize: "3rem"}}>Projetos</span>
+              <span
+                className="titulo_hab text-center "
+                style={{
+                  marginBottom: "10px",
+                  fontWeight: "600",
+                  fontSize: "3rem",
+                }}
+              >
+                Projetos
+              </span>
 
-
-
-
-              <Card className="card_sty " style={{ border: "solid 0.5px red" }}>
+              <Card className="card_sty ">
                 <Card.Body>
                   <Card.Title>Karowara</Card.Title>
                   <Card.Text className="text_card">
@@ -49,7 +54,7 @@ function projetos() {
                   </Card.Text>
                 </Card.Body>
                 <Button className="mb-3" variant="primary">
-                  Ver no GitHub
+                  Ver no <span style={{color: "black"}}>GitHub</span>
                 </Button>
                 <Button className="mb-3" variant="dark">
                   Preview

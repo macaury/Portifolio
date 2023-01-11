@@ -20,18 +20,36 @@ function tecnologias() {
   return (
     <>
       <Container>
-        <span className="titulo_hab linha">Habilidades</span>
-        <Row className="justify-content-md-center">
-          <DiJava className="icon" />
-          <FaPhp className="icon" />
-          <DiCss3 className="icon" />
-          <DiHtml5 className="icon" />
-        </Row>
-        <Row className="justify-content-md-center">
-          <SiJavascript className="icon" />
-          <FaBootstrap className="icon" />
-          <FaReact className="icon" />
-          <RxFigmaLogo className="icon" />
+        <Col>
+          <span className="titulo_hab linha">Habilidades</span>
+        </Col>
+        <Row className="justify-content-md-between">
+          <Col className="justify-content-md-center">
+            <Row>
+              <div className="">
+                Olá, meu nome é <br />
+                <span className="titulo">Macaury Carvalho</span>
+              </div>
+              <div className="">Bem-vindo ao meu Portifólio</div>
+            </Row>
+          </Col>
+          <Col className="justify-content-md-center">
+            <Row>
+              <DiJava className="icon teste_bg" />
+              
+              <FaPhp className="icon  teste_bg" />
+              
+              <DiCss3 className="icon teste_bg" />
+              
+              <DiHtml5 className="icon teste_bg" />
+            </Row>
+            <Row>
+              <SiJavascript className="icon teste_bg " />
+              <FaBootstrap className="icon teste_bg" />
+              <FaReact className="icon teste_bg" />
+              <RxFigmaLogo className="icon teste_bg" />
+            </Row>
+          </Col>
         </Row>
       </Container>
     </>
