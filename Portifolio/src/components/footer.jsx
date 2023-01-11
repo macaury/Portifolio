@@ -22,7 +22,7 @@ function footer() {
               </span>
             </Col>
             <Col>
-              <span>{" Powered by {}"}</span>
+              <span className="">{" Powered by {}"}</span>
             </Col>
           </Row>
         </Container>
