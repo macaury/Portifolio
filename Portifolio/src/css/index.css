@@ -1,5 +1,5 @@
-*{
-  cursor:default;
+* {
+  cursor: default;
 }
 
 .navbar-brand {
@@ -12,16 +12,7 @@
 .Barra_navegacao span:hover {
   border-bottom: solid 2px rgb(251, 72, 72);
   cursor: pointer;
-
-}
-.card_sty:hover{
-  border: 0.5px solid rgb(251, 72, 72);
-}
-
-.Barra_navegacao span:hover,
-.card_sty:hover {
   transition-duration: 1s;
-
 }
 
 .titulo p span,
@@ -44,7 +35,6 @@
   transform: rotate(360deg);
   transition-duration: 1.5s;
   cursor: pointer;
-
 }
 
 .bi {
@@ -53,15 +43,21 @@
   height: 30px;
 }
 
+.card_sty:hover,
+.Barra_navegacao span:hover {
+  transform: scale(1.1);
+}
 
-
-
+.card_sty:hover,
 .teste_bg:hover {
-  border :  0.5px solid red;
+  border: 1px solid rgb(251, 72, 72);
   border-radius: 20px;
   transition-duration: 0.8s;
+}
+
+.teste_bg:hover {
   color: red;
-  transform:scale(1.2);
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -77,14 +73,26 @@
 .box_inicio {
   min-height: 50rem;
 }
+.teste_bg,
+.card_sty,
+.Barra_navegacao span {
+  transition: all 0.5s;
+}
 
-.teste_bg{
+.teste_bg {
   background-color: whitesmoke;
   margin: 10px;
   border-radius: 10px;
-  transition: all .5s;
 }
 
-.bg_projetos{
+.bg_projetos {
   background-color: whitesmoke;
+  height: 38rem;
+}
+
+.footer {
+  height: 3rem;
+}
+.footer a{
+  color: black;
 }

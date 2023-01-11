@@ -20,7 +20,7 @@ function projetos() {
               <span
                 className="titulo_hab text-center "
                 style={{
-                  marginBottom: "10px",
+                  marginBottom: "30px",
                   fontWeight: "600",
                   fontSize: "3rem",
                 }}
@@ -77,10 +77,13 @@ function projetos() {
 
               <Card className="card_sty">
                 <Card.Body>
-                  <Card.Title className="mb-2">Card Title</Card.Title>
+                  <Card.Title className="mb-2">Ranking Movies</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Aplicação web para pesquisar informações de filmes. É
+                    possivel saber a classificação da critica, receita
+                    bilheteria, capital investido, tempo de exibição da pelicula
+                    e a sinopse.
+                    Desenvolvido com ReactJs,Html,Css e Vite.
                   </Card.Text>
                 </Card.Body>
                 <Button className="mb-3" variant="dark">
