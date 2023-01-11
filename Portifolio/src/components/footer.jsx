@@ -9,7 +9,7 @@ function footer() {
     <>
       <div className="footer">
         <Container>
-          <Row className="justify-content-md-between text-center">
+          <Row className="justify-content-md-between">
             <Col>
               <span>
                 <a
