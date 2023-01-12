@@ -26,27 +26,25 @@ function tecnologias() {
         </Col>
         <Row className="justify-content-md-between">
           <Col>
-            <div className="subtitle" style={{color : "gray"}}>
+            <p className="mudarDescricao" style={{color : "gray"}}>
               *Passe o mouse em cima dos icones*
-            </div>
-            <p id="java_Sub" className="hide">java é do caralho de bom que essa porra é</p>
-            <p id="php_Sub" className="hide">php lorem lorem lorem lorem</p>
+            </p>
           </Col>
           <Col className="justify-content-md-center">
             <Row>
-              <DiJava className="icon teste_bg"  id="Java"/>
+              <DiJava className="java icon teste_bg"  />
 
-              <FaPhp className="icon  teste_bg" id="Php"/>
+              <FaPhp className="php icon  teste_bg" />
 
-              <DiCss3 className="icon teste_bg" />
+              <DiCss3 className="css icon teste_bg" />
 
-              <DiHtml5 className="icon teste_bg" />
+              <DiHtml5 className="html icon teste_bg" />
             </Row>
             <Row>
-              <SiJavascript className="icon teste_bg " />
-              <FaBootstrap className="icon teste_bg" />
-              <FaReact className="icon teste_bg" />
-              <RxFigmaLogo className="icon teste_bg" />
+              <SiJavascript className="javascript icon teste_bg " />
+              <FaBootstrap className="bootstrap icon teste_bg" />
+              <FaReact className="react icon teste_bg" />
+              <RxFigmaLogo className="figma icon teste_bg" />
             </Row>
           </Col>
         </Row>
