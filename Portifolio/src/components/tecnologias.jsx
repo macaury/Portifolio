@@ -17,30 +17,29 @@ import { FaReact } from "react-icons/fa";
 import { RxFigmaLogo } from "react-icons/rx";
 
 function tecnologias() {
+
   return (
     <>
       <Container>
         <Col>
-          <span className="titulo_hab linha">Habilidades</span>
+          <span className="titulo_hab ">Habilidades</span>
         </Col>
         <Row className="justify-content-md-between">
-          <Col className="justify-content-md-center">
-            <Row>
-              <div className="">
-                Olá, meu nome é <br />
-                <span className="titulo">Macaury Carvalho</span>
-              </div>
-              <div className="">Bem-vindo ao meu Portifólio</div>
-            </Row>
+          <Col>
+            <div className="subtitle" style={{color : "gray"}}>
+              *Passe o mouse em cima dos icones*
+            </div>
+            <p id="java_Sub" className="hide">java é do caralho de bom que essa porra é</p>
+            <p id="php_Sub" className="hide">php lorem lorem lorem lorem</p>
           </Col>
           <Col className="justify-content-md-center">
             <Row>
-              <DiJava className="icon teste_bg" />
-              
-              <FaPhp className="icon  teste_bg" />
-              
+              <DiJava className="icon teste_bg"  id="Java"/>
+
+              <FaPhp className="icon  teste_bg" id="Php"/>
+
               <DiCss3 className="icon teste_bg" />
-              
+
               <DiHtml5 className="icon teste_bg" />
             </Row>
             <Row>
