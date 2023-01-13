@@ -1,6 +1,6 @@
 export function EventoMousedescricao(nameCard,text) {
     var mudarDescricao = document.querySelector(".mudarDescricao");
-  
+
     document.querySelector(nameCard).addEventListener("mouseover", () => {
       mudarDescricao.innerHTML = text;
     });
