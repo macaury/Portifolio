@@ -19,7 +19,7 @@
 .titulo_hab,
 .Barra_navegacao span:hover,
 .coder span {
-  color: rgb(251, 72, 72);
+  color: #e51d36;
 }
 
 .cite_scroll {
@@ -27,7 +27,7 @@
 }
 
 .linha {
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   border-color: red;
 }
 
@@ -70,12 +70,23 @@
   width: 25rem;
   margin: 20px;
 }
+
+.card_sty p {
+  font-size: 18px;
+}
+
+.card_ti{
+  font-size: 25px;
+  color: #e51d36;
+
+}
+
 .box_inicio {
   min-height: 50rem;
 }
 .teste_bg,
 .card_sty,
-.Barra_navegacao span {
+.Barra_navegacao span , .visu_proj {
   transition: all 0.5s;
 }
 
@@ -83,17 +94,41 @@
   background-color: whitesmoke;
   margin: 20px;
   border-radius: 10px;
-  transform : scale(1.1);
+  transform: scale(1.1);
 }
 
 .bg_projetos {
-  background-color: whitesmoke;
-  height: 38rem;
+  background-color: #f2f4fd;
+  height: 45rem;
 }
 
 .footer {
   height: 3rem;
 }
-.footer a{
+.footer a {
   color: black;
+}
+
+.visu_proj {
+  background-color: white;
+  border-color: white;
+}
+
+.visu_proj:hover {
+  background-color: #e51d36;
+  border-color: white;
+  color: white;
+  border: solid 1px #e51d36;
+  transition-duration: 0.8s;
+  animation-duration: 1ms;
+  border-radius: 15px;
+
+}
+.visu_proj {
+  background-color: white;
+  color: #e51d36;
+  border-radius: 30px;
+  border-bottom: solid 0.5px #e51d36;
+  
+
 }

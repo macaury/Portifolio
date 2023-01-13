@@ -15,10 +15,10 @@ function projetos() {
           <Container>
             <Row
               className="justify-content-md-between habilidades"
-              style={{ paddingTop: "5%", paddingBottom: "5%" }}
+              style={{ paddingTop: "10%", paddingBottom: "5%" }}
             >
               <span
-                className="titulo_hab text-center "
+                className="titulo_hab text-center linha"
                 style={{
                   marginBottom: "30px",
                   fontWeight: "600",
@@ -28,9 +28,9 @@ function projetos() {
                 Projetos
               </span>
 
-              <Card className="card_sty">
+              <Card className="card_sty ">
                 <Card.Body>
-                  <Card.Title className="mb-2">QuiZztech</Card.Title>
+                  <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
                   <Card.Text>
                     Quiz sobre T.I. Possui tres niveis de dificuldade. Feito em
                     ReactJS,html e bootstrap.
@@ -38,26 +38,17 @@ function projetos() {
                 </Card.Body>
 
                 <Button
-                  className="mb-3"
-                  variant="dark"
+                  className="mb-3 visu_proj"
                   href="https://pedrocslucas.github.io/quizz-tech-site/"
                   target="_blank"
                 >
                   Visualizar Projeto
                 </Button>
-                <Button
-                  className="mb-3"
-                  variant="primary"
-                  href="https://github.com/macaury/quiz-tech/tree/master"
-                  target="_blank"
-                >
-                  Ver no GitHub
-                </Button>
               </Card>
 
               <Card className="card_sty ">
                 <Card.Body>
-                  <Card.Title className="mb-2">Karowara</Card.Title>
+                  <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
                   <Card.Text className="text_card">
                     <span>
                       software criado para auxiliar os professores no ensino de
@@ -67,35 +58,23 @@ function projetos() {
                     </span>
                   </Card.Text>
                 </Card.Body>
-                <Button className="mb-3" variant="dark">
+                <Button className="mb-3 visu_proj" variant="dark">
                   Visualizar Projeto
-                </Button>
-                <Button className="mb-3" variant="primary">
-                  Ver no <span style={{ color: "black" }}>GitHub</span>
                 </Button>
               </Card>
 
-              <Card className="card_sty">
+              <Card className="card_sty ">
                 <Card.Body>
-                  <Card.Title className="mb-2">Ranking Movies</Card.Title>
+                  <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                   <Card.Text>
                     Aplicação web para pesquisar informações de filmes. É
                     possivel saber a classificação da critica, receita
                     bilheteria, capital investido, tempo de exibição da pelicula
-                    e a sinopse.
-                    Desenvolvido com ReactJs,Html,Css e Vite.
+                    e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
                   </Card.Text>
                 </Card.Body>
-                <Button className="mb-3" variant="dark">
+                <Button className="mb-3 visu_proj" variant="dark">
                   Visualizar Projeto
-                </Button>
-                <Button
-                  className="mb-3"
-                  variant="primary"
-                  href="https://github.com/macaury/ranking_movies#Como-rodar-o-projeto-na-sua-maquina"
-                  target="_blank"
-                >
-                  Ver no GitHub
                 </Button>
               </Card>
             </Row>

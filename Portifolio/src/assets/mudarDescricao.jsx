@@ -1,3 +1,4 @@
+/*
 import { EventoMousedescricao } from "./EventoMousedescricao";
 
 
@@ -33,3 +34,5 @@ EventoMousedescricao(
   ".java",
   "Java É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor."
 );
+
+*/

@@ -1,3 +1,5 @@
+
+/*
 export function EventoMousedescricao(nameCard,text) {
     var mudarDescricao = document.querySelector(".mudarDescricao");
 
@@ -11,3 +13,4 @@ export function EventoMousedescricao(nameCard,text) {
     });
   }
   
+*/
