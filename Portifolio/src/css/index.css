@@ -57,7 +57,7 @@
 
 .teste_bg:hover {
   color: red;
-  transform: scale(1.4);
+  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -92,9 +92,9 @@
 
 .teste_bg {
   background-color: whitesmoke;
-  margin: 20px;
+  margin: 30px;
   border-radius: 10px;
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .bg_projetos {

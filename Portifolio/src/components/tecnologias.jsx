@@ -16,33 +16,33 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RxFigmaLogo } from "react-icons/rx";
 
-
 import "../assets/mudarDescricao";
 
 function tecnologias() {
-
-
   return (
     <>
       <Container>
-        <Col>
-          <span className="titulo_hab ">Habilidades</span>
-        </Col>
-        <Row className="justify-content-md-between">
+        <Row className="justify-content-md-between" style={{ height: "40rem", paddingTop: "10%"}}>
           <Col>
-            <p className="mudarDescricao" style={{color : "gray"}}>
-              *Passe o mouse em cima dos icones*
-            </p>
+            <span
+              className="titulo_hab" style={{fontSize:"3rem"}}
+            >
+              Habilidades
+            </span>
+
+              <p className="mudarDescricao" style={{ color: "gray" }}>
+                *Passe o mouse em cima dos icones*
+              </p>
           </Col>
           <Col className="justify-content-md-center">
             <Row>
-              <DiJava className="java icon teste_bg "/>
+              <DiJava className="java icon teste_bg " />
 
               <FaPhp className="php icon  teste_bg skills-cards-name-low" />
 
-              <DiCss3 className=" icon teste_bg" id="css"/>
+              <DiCss3 className=" icon teste_bg" id="css" />
 
-              <DiHtml5 className=" icon teste_bg" id="html"/>
+              <DiHtml5 className=" icon teste_bg" id="html" />
             </Row>
             <Row>
               <SiJavascript className="javascript icon teste_bg " />
