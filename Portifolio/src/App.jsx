@@ -1,7 +1,8 @@
 import React from "react";
 
-import "./assets/EventoMousedescrição";
 import "./assets/mudarDescricao";
+import "./assets/EventoMousedescricao";
+
 
 import Barra_nav from "./components/Barra_nav";
 import Titulo from "./components/inicio";
@@ -17,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <div className="">
+      <div >
         <Barra_nav />
         <Titulo/>
         <Projetos/>

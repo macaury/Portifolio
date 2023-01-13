@@ -16,7 +16,11 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RxFigmaLogo } from "react-icons/rx";
 
+
+import "../assets/mudarDescricao";
+
 function tecnologias() {
+
 
   return (
     <>
@@ -32,13 +36,13 @@ function tecnologias() {
           </Col>
           <Col className="justify-content-md-center">
             <Row>
-              <DiJava className="java icon teste_bg"  />
+              <DiJava className="java icon teste_bg "/>
 
-              <FaPhp className="php icon  teste_bg" />
+              <FaPhp className="php icon  teste_bg skills-cards-name-low" />
 
-              <DiCss3 className="css icon teste_bg" />
+              <DiCss3 className=" icon teste_bg" id="css"/>
 
-              <DiHtml5 className="html icon teste_bg" />
+              <DiHtml5 className=" icon teste_bg" id="html"/>
             </Row>
             <Row>
               <SiJavascript className="javascript icon teste_bg " />

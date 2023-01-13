@@ -1,4 +1,4 @@
-export function EventoMousedescrição(nameCard, text) {
+export function EventoMousedescricao(nameCard,text) {
     var mudarDescricao = document.querySelector(".mudarDescricao");
   
     document.querySelector(nameCard).addEventListener("mouseover", () => {
@@ -6,6 +6,8 @@ export function EventoMousedescrição(nameCard, text) {
     });
   
     document.querySelector(nameCard).addEventListener("mouseout", () => {
-      mudarDescricao.innerHTML = `*passe o cursor do mouse no card para ler*`;
+      mudarDescricao.innerHTML = '*Passe o mouse em cima dos icones*';
+
     });
   }
+  
