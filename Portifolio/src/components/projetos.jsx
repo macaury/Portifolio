@@ -22,7 +22,7 @@ function projetos() {
                 style={{
                   marginBottom: "30px",
                   fontWeight: "600",
-                  fontSize: "3rem",
+                  fontSize: "2.5rem",
                 }}
               >
                 Projetos

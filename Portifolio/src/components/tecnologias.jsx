@@ -27,7 +27,7 @@ function tecnologias() {
           style={{ height: "40rem", paddingTop: "10%" }}
         >
           <Col>
-            <span className="titulo_hab" style={{ fontSize: "3rem" }}>
+            <span className="titulo_hab" style={{ fontSize: "2.5rem" }}>
               Habilidades
             </span>
 
