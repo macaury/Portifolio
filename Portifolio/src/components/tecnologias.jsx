@@ -22,17 +22,18 @@ function tecnologias() {
   return (
     <>
       <Container>
-        <Row className="justify-content-md-between" style={{ height: "40rem", paddingTop: "10%"}}>
+        <Row
+          className="justify-content-md-between"
+          style={{ height: "40rem", paddingTop: "10%" }}
+        >
           <Col>
-            <span
-              className="titulo_hab" style={{fontSize:"3rem"}}
-            >
+            <span className="titulo_hab" style={{ fontSize: "3rem" }}>
               Habilidades
             </span>
 
-              <p className="mudarDescricao" style={{ color: "gray" }}>
-                *Passe o mouse em cima dos icones*
-              </p>
+            <p className="mudarDescricao" style={{ color: "gray" }}>
+              *Passe o mouse em cima dos icones*
+            </p>
           </Col>
           <Col className="justify-content-md-center">
             <Row>

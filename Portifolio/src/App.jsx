@@ -9,6 +9,7 @@ import Titulo from "./components/inicio";
 import Tecnologias from "./components/tecnologias";
 import Projetos from "./components/projetos";
 import Footer from "./components/footer"
+import Servicos from "./components/servicos";
 
 
 import "./css/main.css";
@@ -22,6 +23,7 @@ function App() {
         <Barra_nav />
         <Titulo/>
         <Projetos/>
+        <Servicos/>
         <Tecnologias/>
         <Footer/>
       </div>
