@@ -75,10 +75,9 @@
   font-size: 18px;
 }
 
-.card_ti{
+.card_ti {
   font-size: 25px;
   color: #e51d36;
-
 }
 
 .box_inicio {
@@ -86,7 +85,8 @@
 }
 .teste_bg,
 .card_sty,
-.Barra_navegacao span , .visu_proj {
+.Barra_navegacao span,
+.visu_proj {
   transition: all 0.5s;
 }
 
@@ -122,18 +122,26 @@
   transition-duration: 0.8s;
   animation-duration: 1ms;
   border-radius: 15px;
-
 }
 .visu_proj {
   background-color: white;
   color: #e51d36;
   border-radius: 30px;
   border-bottom: solid 0.5px #e51d36;
-  
+}
+
+.card_serv {
+  width: 26rem;
+  margin: 10px;
+  transition: all 0.5s;
+  border: solid 2px whitesmoke;
+
 
 }
 
-.card_serv{
-    width: 26rem;
-    margin: 10px;
+.card_serv:hover {
+  border: solid 2px #e51d36;
+  animation-duration: 1ms;
+
+  transition-duration: 0.8s;
 }
