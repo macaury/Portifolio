@@ -9,7 +9,7 @@ function footer() {
     <>
       <div className="footer">
         <Container>
-          <Row className="justify-content-md-between">
+          <Row>
             <Col>
               <span>
                 <a
@@ -22,7 +22,7 @@ function footer() {
               </span>
             </Col>
             <Col>
-              <span className="">{" Powered by {}"}</span>
+              <span>{" Powered by {}"}</span>
             </Col>
           </Row>
         </Container>

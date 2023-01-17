@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-import img from '../assets/images/img.png';
+import img from "../assets/images/img.png";
 
 function quemSou() {
   return (
@@ -23,16 +23,28 @@ function quemSou() {
               Quem sou
             </span>
           </Row>
-          <Row className="justify-content-md-between habilidades">
-            <Col>
-            <img src={img} alt="" />
-            </Col>
-            <Col>
-              <div>
-                Meu nome é Macaury Carvalho, atualmente trabalho como
-                freenlancer de desenvolvimento front-end. Crio sites focado em
-                responsividade,desempenho, aliado a um design elegante e moderno{" "}
+          <Row className="d-flex justify-conten-md-center habilidades">
+            <Col xs md="7">
+              <div className="">
+                <img
+                  src={img}
+                  alt="macaury_carvalho"
+                  style={{ with: "20rem", height: "20rem" }}
+                />
               </div>
+            </Col>
+            <Col xs md="5">
+              <p
+                className="text-justify"
+                style={{
+                  fontSize: "1.3rem",
+                }}
+              >
+                Meu nome é Macaury Carvalho, atualmente trabalho como
+                freenlancer de desenvolvimento front-end e design Ui/Ux. Crio sites focado em
+                responsividade,desempenho, aliado a um design elegante e
+                moderno.
+              </p>
             </Col>
           </Row>
         </Container>
