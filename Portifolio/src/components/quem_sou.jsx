@@ -4,6 +4,8 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
+import img from '../assets/images/img.png';
+
 function quemSou() {
   return (
     <>
@@ -22,7 +24,9 @@ function quemSou() {
             </span>
           </Row>
           <Row className="justify-content-md-between habilidades">
-            <Col></Col>
+            <Col>
+            <img src={img} alt="" />
+            </Col>
             <Col>
               <div>
                 Meu nome é Macaury Carvalho, atualmente trabalho como
