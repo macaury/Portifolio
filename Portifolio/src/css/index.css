@@ -99,11 +99,14 @@
 
 .bg_projetos {
   background-color: #f2f4fd;
-  height: 45rem;
+  height: 20%;
+  padding-bottom: 5%;
 }
 
 .footer {
+  padding-top: 1rem;
   height: 3rem;
+  background-color: #f2f4fd;
 }
 .footer a {
   color: black;

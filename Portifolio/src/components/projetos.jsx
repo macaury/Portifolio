@@ -10,7 +10,7 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <div className="bg_projetos">
+      <div>
         <Card.Header>
           <Container>
             <Row
