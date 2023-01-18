@@ -36,7 +36,7 @@ function servicos() {
                 <Card.Title className="mb-2 text-center">
                   Lorem LOrem
                 </Card.Title>
-                <Card.Text>lorem lorem lorem lorem</Card.Text>
+                <Card.Text className="text-justify">lorem lorem lorem lorem LOremLOremLOremLOremLOrem</Card.Text>
               </Card.Body>
             </Card>
 

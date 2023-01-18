@@ -10,12 +10,12 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <div>
+      <div className="height_general">
         <Card.Header>
           <Container>
             <Row
               className="justify-content-md-between habilidades"
-              style={{ paddingTop: "10%", paddingBottom: "5%" }}
+              style={{ paddingTop: "10%"}}
             >
               <span
                 className="titulo_hab text-center linha"

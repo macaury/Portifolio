@@ -21,39 +21,41 @@ import "../assets/mudarDescricao";
 function tecnologias() {
   return (
     <>
-      <Container>
-        <Row
-          className="justify-content-md-between"
-          style={{ height: "40rem", paddingTop: "10%" }}
-        >
-          <Col>
-            <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>
-              Habilidades
-            </span>
+      <div className="height_general">
+        <Container>
+          <Row
+            className="justify-content-md-between"
+            style={{ marginTop: "5%" }}
+          >
+            <Col>
+              <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>
+                Habilidades
+              </span>
 
-            <p className="mudarDescricao" style={{ color: "gray" }}>
-              *Passe o mouse em cima dos icones*
-            </p>
-          </Col>
-          <Col className="justify-content-md-center">
-            <Row>
-              <DiJava className="java icon teste_bg " />
+              <p className="mudarDescricao" style={{ color: "gray" }}>
+                *Passe o mouse em cima dos icones*
+              </p>
+            </Col>
+            <Col className="justify-content-md-center">
+              <Row>
+                <DiJava className="java icon teste_bg " />
 
-              <FaPhp className="php icon  teste_bg skills-cards-name-low" />
+                <FaPhp className="php icon  teste_bg skills-cards-name-low" />
 
-              <DiCss3 className=" icon teste_bg" id="css" />
+                <DiCss3 className=" icon teste_bg" id="css" />
 
-              <DiHtml5 className=" icon teste_bg" id="html" />
-            </Row>
-            <Row>
-              <SiJavascript className="javascript icon teste_bg " />
-              <FaBootstrap className="bootstrap icon teste_bg" />
-              <FaReact className="react icon teste_bg" />
-              <RxFigmaLogo className="figma icon teste_bg" />
-            </Row>
-          </Col>
-        </Row>
-      </Container>
+                <DiHtml5 className=" icon teste_bg" id="html" />
+              </Row>
+              <Row>
+                <SiJavascript className="javascript icon teste_bg " />
+                <FaBootstrap className="bootstrap icon teste_bg" />
+                <FaReact className="react icon teste_bg" />
+                <RxFigmaLogo className="figma icon teste_bg" />
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
