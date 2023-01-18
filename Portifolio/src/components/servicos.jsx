@@ -34,7 +34,7 @@ function servicos() {
                   <img src={cell_phone} alt="" />
                 </div>
                 <Card.Title className="mb-2 text-center">
-                  Lorem LOrem
+                  Sites responsivos 
                 </Card.Title>
                 <Card.Text className="text-justify">lorem lorem lorem lorem LOremLOremLOremLOremLOrem</Card.Text>
               </Card.Body>
@@ -46,7 +46,7 @@ function servicos() {
                   <img src={computer} alt="" />
                 </div>
                 <Card.Title className="mb-2 text-center">
-                  Lorem LOrem
+                 Desenvolvimento
                 </Card.Title>
                 <Card.Text className="text_card">
                   <span>
@@ -63,9 +63,10 @@ function servicos() {
                   <img src={design} alt="" />
                 </div>
                 <Card.Title className="mb-2 text-center">
-                  Lorem Lorem Lorem
+                  Design moderno
                 </Card.Title>
                 <Card.Text>
+
                   lorem lorem lorem loremlorem lorem lorem loremlorem lorem
                   lorem loremlorem lorem lorem lorem
                 </Card.Text>

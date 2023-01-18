@@ -9,29 +9,32 @@ import { CiBezier } from "react-icons/ci";
 function titulo() {
   return (
     <>
-      <Container className="box_inicio">
-        <Row className="  justify-content-md-between">
-          <div
-            className="coder text-center"
-            style={{ marginTop: "20%", marginBottom: "5px" }}
-          >
-            <span>{"<Coder>"}</span>
-          </div>
-          <div className="  text-center ">
-            <div className="titulo ">
-              <p>
-                Desenvolvedor Front-end com foco em 
-                <span> simplicidade,elegancia e eficiencia. </span>
-              </p>
+      <div  style={{paddingBottom: "2%"}}>
+        <Container className="box_inicio">
+          <Row className="  justify-content-md-between">
+            <div
+              className="coder text-center"
+              style={{ marginTop: "20%", marginBottom: "5px" }}
+            >
+              <span>{"<Coder>"}</span>
             </div>
-            <Row>
-              <cite className=" cite_scroll text-center">
-                - Permita-se e gire o scroll do mouse para saber mais sobre mim
-              </cite>
-            </Row>
-          </div>
-        </Row>
-      </Container>
+            <div className="  text-center ">
+              <div className="titulo ">
+                <p>
+                  Desenvolvedor Front-end com foco em
+                  <span> simplicidade,elegancia e eficiencia. </span>
+                </p>
+              </div>
+              <Row>
+                <cite className=" cite_scroll text-center">
+                  - Permita-se e gire o scroll do mouse para saber mais sobre
+                  mim
+                </cite>
+              </Row>
+            </div>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
