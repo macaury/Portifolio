@@ -25,7 +25,6 @@ function tecnologias() {
         <Container>
           <Row
             className="justify-content-md-between"
-            style={{ marginTop: "5%" }}
           >
             <Col>
               <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>

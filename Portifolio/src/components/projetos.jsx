@@ -13,10 +13,7 @@ function projetos() {
       <div className="height_general">
         <Card.Header>
           <Container>
-            <Row
-              className="justify-content-md-between habilidades"
-              style={{ paddingTop: "10%"}}
-            >
+            <Row className="justify-content-md-between">
               <span
                 className="titulo_hab text-center linha"
                 style={{
@@ -65,7 +62,9 @@ function projetos() {
 
               <Card className="card_sty ">
                 <Card.Body>
-                  <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
+                  <Card.Title className="mb-2 card_ti">
+                    Ranking Movies
+                  </Card.Title>
                   <Card.Text>
                     Aplicação web para pesquisar informações de filmes. É
                     possivel saber a classificação da critica, receita
