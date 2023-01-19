@@ -6,6 +6,7 @@
   font-size: 200% !important;
 }
 .Barra_navegacao {
+  top: 0;
   position: fixed;
   height: 6rem;
   width: 100%;
@@ -71,13 +72,13 @@
 
 .card_sty {
   width: 25rem;
+  height: 20rem;
   margin: 20px;
-
+background-color: whitesmoke;
   padding: 10px;
   border-radius: 10px;
   transition: all 0.8s;
   border: solid 2px white;
-  height: 100%;
 }
 
 .card_sty p {
@@ -140,6 +141,7 @@
   color: #e51d36;
   border-radius: 30px;
   border-bottom: solid 0.5px #e51d36;
+  width: 100%;
 }
 
 .card_serv {
@@ -162,12 +164,4 @@
   height: 20%;
   padding-bottom: 5%;
   padding-top: 5%;
-}
-
-.btn_card {
-  width: 100% !important;
-  bottom: 0;
-}
-.body_card {
-  height: 100% !important;
 }

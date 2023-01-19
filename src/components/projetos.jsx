@@ -25,7 +25,7 @@ function projetos() {
             </span>
 
             <div className="card_sty">
-              <Card.Body className="body_card">
+              <Card.Body >
                 <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
                 <Card.Text className="text_card">
                   <span>
@@ -33,14 +33,15 @@ function projetos() {
                     ReactJS,html e bootstrap.
                   </span>
                 </Card.Text>
+              </Card.Body>
+
                 <Button
-                  className="mb-3 visu_proj btn_card"
+                  className="visu_proj "
                   href="https://pedrocslucas.github.io/quizz-tech-site/"
                   target="_blank"
                 >
                   Visualizar Projeto
                 </Button>
-              </Card.Body>
             </div>
             <div className="card_sty">
               <Card.Body className="body_card">
@@ -54,7 +55,7 @@ function projetos() {
                   </span>
                 </Card.Text>
                 <Button
-                  className="mb-3 visu_proj btn_card"
+                  className="mb-3 visu_proj "
                   variant="dark"
                   style={{ with: "100%" }}
                 >
@@ -74,7 +75,7 @@ function projetos() {
                     e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
                   </span>
                 </Card.Text>
-                <Button className="mb-3 visu_proj btn_card" variant="dark">
+                <Button className="mb-3 visu_proj " variant="dark">
                   Visualizar Projeto
                 </Button>
               </Card.Body>
