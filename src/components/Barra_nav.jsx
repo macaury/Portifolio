@@ -23,7 +23,7 @@ const Barra_nav = () => {
           <Nav>
             <Nav.Link>
               <span>
-                <Link
+                <Link 
                   activeClass="active"
                   to="inicio"
                   spy={true}
@@ -85,7 +85,7 @@ const Barra_nav = () => {
                   to="habilidades"
                   spy={true}
                   smooth={true}
-                  offset={100}
+                  offset={0}
                   duration={500}
                 >
                   Habilidades

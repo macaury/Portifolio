@@ -10,7 +10,7 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <div id="projetos" className="height_general">
+      <div id="projetos" className="height_general ">
         <Container>
           <Row className="justify-content-md-between">
             <span
@@ -24,8 +24,8 @@ function projetos() {
               Projetos
             </span>
 
-            <div className="card_sty">
-              <Card.Body >
+            <Card className="card_sty">
+              <Card.Body>
                 <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
                 <Card.Text className="text_card">
                   <span>
@@ -35,15 +35,15 @@ function projetos() {
                 </Card.Text>
               </Card.Body>
 
-                <Button
-                  className="visu_proj "
-                  href="https://pedrocslucas.github.io/quizz-tech-site/"
-                  target="_blank"
-                >
-                  Visualizar Projeto
-                </Button>
-            </div>
-            <div className="card_sty">
+              <Button
+                className="mb-3 visu_proj "
+                href="https://pedrocslucas.github.io/quizz-tech-site/"
+                target="_blank"
+              >
+                Visualizar Projeto
+              </Button>
+            </Card>
+            <Card className="card_sty">
               <Card.Body className="body_card">
                 <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
                 <Card.Text className="text_card">
@@ -54,17 +54,17 @@ function projetos() {
                     Java.
                   </span>
                 </Card.Text>
-                <Button
-                  className="mb-3 visu_proj "
-                  variant="dark"
-                  style={{ with: "100%" }}
-                >
-                  Visualizar Projeto
-                </Button>
               </Card.Body>
-            </div>
+              <Button
+                className="mb-3 visu_proj "
+                variant="dark"
+                style={{ with: "100%" }}
+              >
+                Visualizar Projeto
+              </Button>
+            </Card>
 
-            <div className="card_sty">
+            <Card className="card_sty">
               <Card.Body className="body_card">
                 <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                 <Card.Text className="text_card">
@@ -75,11 +75,11 @@ function projetos() {
                     e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
                   </span>
                 </Card.Text>
-                <Button className="mb-3 visu_proj " variant="dark">
-                  Visualizar Projeto
-                </Button>
               </Card.Body>
-            </div>
+              <Button className="mb-3 visu_proj " variant="dark">
+                Visualizar Projeto
+              </Button>
+            </Card>
           </Row>
         </Container>
       </div>

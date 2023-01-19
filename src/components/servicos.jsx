@@ -15,12 +15,12 @@ function servicos() {
         <Container>
           <Row
             className="justify-content-md-between habilidades"
-            style={{ paddingTop: "5%", paddingBottom: "5%" }}
+            style={{ paddingTop: "5%"}}
           >
             <span
               className="titulo_hab text-center "
               style={{
-                marginBottom: "30px",
+                marginBottom: "50px",
                 fontWeight: "600",
                 fontSize: "2.5rem",
               }}
@@ -28,9 +28,9 @@ function servicos() {
               Serviços
             </span>
 
-            <div className="card_serv">
+            <Card className="card_serv">
                 <div>
-                  <img src={cell_phone} alt="" />
+                  <img src={cell_phone} alt="Celular" />
                 </div>
                 <Card.Title className="mb-2 text-center">
                   Sites responsivos
@@ -38,11 +38,11 @@ function servicos() {
                 <Card.Text className="text-justify">
                   lorem lorem lorem lorem LOremLOremLOremLOremLOrem
                 </Card.Text>
-            </div>
+            </Card>
 
-            <div className="card_serv" style={{ background: "white" }}>
+            <Card className="card_serv" style={{ background: "white" }}>
                 <div>
-                  <img src={computer} alt="" />
+                  <img src={computer} alt="Computador" />
                 </div>
                 <Card.Title className="mb-2 text-center">
                   Desenvolvimento
@@ -53,11 +53,11 @@ function servicos() {
                     lorem lorem
                   </span>
                 </Card.Text>
-            </div>
+            </Card>
 
-            <div className="card_serv">
+            <Card className="card_serv">
               <div>
-                <img src={design} alt="" />
+                <img src={design} alt="Caneta_antiga" />
               </div>
               <Card.Title className="mb-2 text-center">
                 Design moderno
@@ -66,7 +66,7 @@ function servicos() {
                 lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem
                 loremlorem lorem lorem lorem
               </Card.Text>
-            </div>
+            </Card>
           </Row>
         </Container>
       </div>

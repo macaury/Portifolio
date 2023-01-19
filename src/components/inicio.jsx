@@ -10,11 +10,11 @@ function titulo() {
   return (
     <>
       <div id="inicio"  style={{paddingBottom: "2%"}}>
-        <Container className="box_inicio">
+        <Container >
           <Row className="  justify-content-md-between">
             <div
               className="coder text-center"
-              style={{ marginTop: "20%", marginBottom: "5px" }}
+              style={{ marginTop: "30%", marginBottom: "5px" }}
             >
               <span>{"<Coder>"}</span>
             </div>

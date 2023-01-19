@@ -11,7 +11,7 @@ function quemSou() {
     <>
       <div id="sobre_mim" className="bg_projetos">
         <Container>
-          <Row style={{ paddingTop: "5%" }}>
+          <Row style={{ paddingTop: "2%" }}>
             <span
               className="titulo_hab text-center "
               style={{

@@ -4,6 +4,8 @@ import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 
+import tree_oak  from "../assets/images/tree_oak_footer.svg";
+
 function footer() {
   return (
     <>
@@ -21,8 +23,13 @@ function footer() {
                 </a>
               </span>
             </Col>
-            <Col>
-              <span>{" Powered by {}"}</span>
+            <Col className="mb-2">
+              <div>
+                {" Powered by "} 
+                <span style={{color : "red"}}> 
+                  {"{ Oak }"}
+                  </span>
+              </div>
             </Col>
           </Row>
         </Container>
