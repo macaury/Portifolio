@@ -9,7 +9,7 @@ import img from "../assets/images/img.png";
 function quemSou() {
   return (
     <>
-      <div className="bg_projetos">
+      <div id="sobre_mim" className="bg_projetos">
         <Container>
           <Row style={{ paddingTop: "5%" }}>
             <span

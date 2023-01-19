@@ -9,7 +9,7 @@ import { CiBezier } from "react-icons/ci";
 function titulo() {
   return (
     <>
-      <div  style={{paddingBottom: "2%"}}>
+      <div id="inicio"  style={{paddingBottom: "2%"}}>
         <Container className="box_inicio">
           <Row className="  justify-content-md-between">
             <div

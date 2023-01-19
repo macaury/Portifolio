@@ -21,7 +21,7 @@ import "../assets/mudarDescricao";
 function tecnologias() {
   return (
     <>
-      <div className="height_general">
+      <div id="habilidades" className="height_general">
         <Container>
           <Row
             className="justify-content-md-between"

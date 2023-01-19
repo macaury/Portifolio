@@ -10,7 +10,7 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <div id="#projetos" className="height_general" >
+      <div id="projetos" className="height_general" >
         <Card.Header>
           <Container>
             <Row className="justify-content-md-between">
