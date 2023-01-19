@@ -25,7 +25,7 @@ const Barra_nav = () => {
             <Nav.Link href={"#"}>
               <span> Sobre mim </span>
             </Nav.Link>
-            <Nav.Link href={"#"}>
+            <Nav.Link href={"#projetos"}>
               <span>projetos</span>
             </Nav.Link>
             <Nav.Link href={"#"}>
