@@ -10,75 +10,77 @@ import { DiJava } from "react-icons/di";
 function projetos() {
   return (
     <>
-      <div id="projetos" className="height_general" >
-        <Card.Header>
-          <Container>
-            <Row className="justify-content-md-between">
-              <span
-                className="titulo_hab text-center linha"
-                style={{
-                  marginBottom: "30px",
-                  fontWeight: "600",
-                  fontSize: "2.5rem",
-                }}
-              >
-                Projetos
-              </span>
+      <div id="projetos" className="height_general">
+        <Container>
+          <Row className="justify-content-md-between">
+            <span
+              className="titulo_hab text-center linha"
+              style={{
+                marginBottom: "30px",
+                fontWeight: "600",
+                fontSize: "2.5rem",
+              }}
+            >
+              Projetos
+            </span>
 
-              <Card className="card_sty ">
-                <Card.Body>
-                  <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
-                  <Card.Text>
+            <div className="card_sty">
+              <Card.Body className="body_card">
+                <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
+                <Card.Text className="text_card">
+                  <span>
                     Quiz sobre T.I. Possui tres niveis de dificuldade. Feito em
                     ReactJS,html e bootstrap.
-                  </Card.Text>
-                </Card.Body>
-
+                  </span>
+                </Card.Text>
                 <Button
-                  className="mb-3 visu_proj"
+                  className="mb-3 visu_proj btn_card"
                   href="https://pedrocslucas.github.io/quizz-tech-site/"
                   target="_blank"
                 >
                   Visualizar Projeto
                 </Button>
-              </Card>
-
-              <Card className="card_sty ">
-                <Card.Body>
-                  <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
-                  <Card.Text className="text_card">
-                    <span>
-                      software criado para auxiliar os professores no ensino de
-                      noções de algoritmo, e facilitar a visualização de
-                      estruturas abstratas básicas. Desenvolvido totalmente em
-                      Java.
-                    </span>
-                  </Card.Text>
-                </Card.Body>
-                <Button className="mb-3 visu_proj" variant="dark">
+              </Card.Body>
+            </div>
+            <div className="card_sty">
+              <Card.Body className="body_card">
+                <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
+                <Card.Text className="text_card">
+                  <span>
+                    software criado para auxiliar os professores no ensino de
+                    noções de algoritmo, e facilitar a visualização de
+                    estruturas abstratas básicas. Desenvolvido totalmente em
+                    Java.
+                  </span>
+                </Card.Text>
+                <Button
+                  className="mb-3 visu_proj btn_card"
+                  variant="dark"
+                  style={{ with: "100%" }}
+                >
                   Visualizar Projeto
                 </Button>
-              </Card>
+              </Card.Body>
+            </div>
 
-              <Card className="card_sty ">
-                <Card.Body>
-                  <Card.Title className="mb-2 card_ti">
-                    Ranking Movies
-                  </Card.Title>
-                  <Card.Text>
+            <div className="card_sty">
+              <Card.Body className="body_card">
+                <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
+                <Card.Text className="text_card">
+                  <span>
                     Aplicação web para pesquisar informações de filmes. É
                     possivel saber a classificação da critica, receita
                     bilheteria, capital investido, tempo de exibição da pelicula
                     e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
-                  </Card.Text>
-                </Card.Body>
-                <Button className="mb-3 visu_proj" variant="dark">
+                  </span>
+                </Card.Text>
+                <Button className="mb-3 visu_proj btn_card" variant="dark">
                   Visualizar Projeto
                 </Button>
-              </Card>
-            </Row>
-          </Container>
-        </Card.Header>
+              </Card.Body>
+            </div>
+          </Row>
+        </Container>
       </div>
     </>
   );

@@ -28,7 +28,7 @@ const Barra_nav = () => {
                   to="inicio"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   Inicio
@@ -42,7 +42,7 @@ const Barra_nav = () => {
                   to="sobre_mim"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-30}
                   duration={500}
                 >
                   sobre mim
@@ -56,7 +56,7 @@ const Barra_nav = () => {
                   to="projetos"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-10}
                   duration={500}
                 >
                   Projetos
@@ -70,7 +70,7 @@ const Barra_nav = () => {
                   to="servicos"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-30}
                   duration={500}
             
                 >

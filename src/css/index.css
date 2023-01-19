@@ -6,7 +6,10 @@
   font-size: 200% !important;
 }
 .Barra_navegacao {
+  position: fixed;
   height: 6rem;
+  width: 100%;
+  background-color: white;
 }
 
 .Barra_navegacao span:hover {
@@ -69,6 +72,12 @@
 .card_sty {
   width: 25rem;
   margin: 20px;
+
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.8s;
+  border: solid 2px white;
+  height: 100%;
 }
 
 .card_sty p {
@@ -135,11 +144,11 @@
 
 .card_serv {
   width: 26rem;
-  margin: 10px;
-  transition: all 0.5s;
-  border: solid 2px whitesmoke;
-
-
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.8s;
+  border: solid 2px white;
+  background-color: white;
 }
 
 .card_serv:hover {
@@ -149,9 +158,16 @@
   transition-duration: 0.8s;
 }
 
-
-.height_general{
+.height_general {
   height: 20%;
   padding-bottom: 5%;
   padding-top: 5%;
+}
+
+.btn_card {
+  width: 100% !important;
+  bottom: 0;
+}
+.body_card {
+  height: 100% !important;
 }

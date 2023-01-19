@@ -11,7 +11,7 @@ import design from "../assets/images/design.svg";
 function servicos() {
   return (
     <>
-      <div  id="servicos" className="bg_projetos">
+      <div id="servicos" className="bg_projetos">
         <Container>
           <Row
             className="justify-content-md-between habilidades"
@@ -28,25 +28,24 @@ function servicos() {
               Serviços
             </span>
 
-            <Card className="card_serv">
-              <Card.Body>
+            <div className="card_serv">
                 <div>
                   <img src={cell_phone} alt="" />
                 </div>
                 <Card.Title className="mb-2 text-center">
-                  Sites responsivos 
+                  Sites responsivos
                 </Card.Title>
-                <Card.Text className="text-justify">lorem lorem lorem lorem LOremLOremLOremLOremLOrem</Card.Text>
-              </Card.Body>
-            </Card>
+                <Card.Text className="text-justify">
+                  lorem lorem lorem lorem LOremLOremLOremLOremLOrem
+                </Card.Text>
+            </div>
 
-            <Card className="card_serv">
-              <Card.Body>
+            <div className="card_serv" style={{ background: "white" }}>
                 <div>
                   <img src={computer} alt="" />
                 </div>
                 <Card.Title className="mb-2 text-center">
-                 Desenvolvimento
+                  Desenvolvimento
                 </Card.Title>
                 <Card.Text className="text_card">
                   <span>
@@ -54,24 +53,20 @@ function servicos() {
                     lorem lorem
                   </span>
                 </Card.Text>
-              </Card.Body>
-            </Card>
+            </div>
 
-            <Card className="card_serv">
-              <Card.Body>
-                <div>
-                  <img src={design} alt="" />
-                </div>
-                <Card.Title className="mb-2 text-center">
-                  Design moderno
-                </Card.Title>
-                <Card.Text>
-
-                  lorem lorem lorem loremlorem lorem lorem loremlorem lorem
-                  lorem loremlorem lorem lorem lorem
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <div className="card_serv">
+              <div>
+                <img src={design} alt="" />
+              </div>
+              <Card.Title className="mb-2 text-center">
+                Design moderno
+              </Card.Title>
+              <Card.Text>
+                lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem
+                loremlorem lorem lorem lorem
+              </Card.Text>
+            </div>
           </Row>
         </Container>
       </div>
