@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
-    "vite": "^4.0.4",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.7.1",
     "vue-react": "^1.2.0"
   },
   "devDependencies": {
