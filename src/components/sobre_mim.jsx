@@ -23,7 +23,7 @@ function quemSou() {
               Quem sou
             </span>
           </Row>
-          <Row className="d-flex justify-conten-md-center habilidades">
+          <Row className="d-flex">
             <Col xs md="7">
               <div className="">
                 <img
@@ -35,10 +35,7 @@ function quemSou() {
             </Col>
             <Col xs md="5">
               <p
-                className="text-justify"
-                style={{
-                  fontSize: "1.3rem",
-                }}
+                
               >
                 Meu nome é Macaury Carvalho, atualmente trabalho como
                 freenlancer de desenvolvimento front-end e design Ui/Ux. Crio sites focado em

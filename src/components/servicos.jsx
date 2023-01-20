@@ -11,11 +11,11 @@ import design from "../assets/images/design.svg";
 function servicos() {
   return (
     <>
-      <div id="servicos" >
+      <div id="servicos">
         <Container>
           <Row
             className="justify-content-md-between habilidades"
-            style={{ paddingTop: "5%"}}
+            style={{ paddingTop: "5%" }}
           >
             <span
               className="titulo_hab text-center "
@@ -29,42 +29,43 @@ function servicos() {
             </span>
 
             <Card className="card_serv">
-                <div>
-                  <img src={cell_phone} alt="Celular" />
-                </div>
-                <Card.Title className="mb-2 text-center">
-                  Sites responsivos
-                </Card.Title>
-                <Card.Text className="text-justify">
-                  lorem lorem lorem lorem LOremLOremLOremLOremLOrem
-                </Card.Text>
+              <div>
+                <img src={cell_phone} alt="Celular" />
+              </div>
+              <Card.Title className="mb-3 text-center card_ti">
+                Sites responsivos
+              </Card.Title>
+              <Card.Text className="text-justify">
+                Crio interações que transmitem sensação de modernidade e
+                conforto, além de chamarem a atenção do usuário.
+              </Card.Text>
             </Card>
 
             <Card className="card_serv" style={{ background: "white" }}>
-                <div>
-                  <img src={computer} alt="Computador" />
-                </div>
-                <Card.Title className="mb-2 text-center">
-                  Desenvolvimento
-                </Card.Title>
-                <Card.Text className="text_card">
-                  <span>
-                    lorem lorem lorem loremlorem lorem lorem loremlorem lorem
-                    lorem lorem
-                  </span>
-                </Card.Text>
+              <div>
+                <img src={computer} alt="Computador" />
+              </div>
+              <Card.Title className="mb-3 text-center card_ti">
+                Desenvolvimento
+              </Card.Title>
+              <Card.Text className="text_card">
+                <span>
+                  Desenvolvo sites profissionais, blogs, portfólios, landing
+                  pages e e-commerce.
+                </span>
+              </Card.Text>
             </Card>
 
             <Card className="card_serv">
               <div>
-                <img src={design} alt="Caneta_antiga" />
+                <img src={design} alt="Caneta_antiga " />
               </div>
-              <Card.Title className="mb-2 text-center">
+              <Card.Title className="mb-3 text-center card_ti">
                 Design moderno
               </Card.Title>
-              <Card.Text>
-                lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem
-                loremlorem lorem lorem lorem
+              <Card.Text >
+                Crio interface de forma clara, objetiva e
+                principalmente intuitiva para o usuário.
               </Card.Text>
             </Card>
           </Row>

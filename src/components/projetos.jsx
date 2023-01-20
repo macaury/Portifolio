@@ -27,7 +27,7 @@ function projetos() {
             <Card className="card_sty">
               <Card.Body>
                 <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
-                <Card.Text className="text_card">
+                <Card.Text>
                   <span>
                     Quiz sobre T.I. Possui tres niveis de dificuldade. Feito em
                     ReactJS,html e bootstrap.
@@ -46,7 +46,7 @@ function projetos() {
             <Card className="card_sty">
               <Card.Body className="body_card">
                 <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
-                <Card.Text className="text_card">
+                <Card.Text >
                   <span>
                     software criado para auxiliar os professores no ensino de
                     noções de algoritmo, e facilitar a visualização de
@@ -67,7 +67,7 @@ function projetos() {
             <Card className="card_sty">
               <Card.Body className="body_card">
                 <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
-                <Card.Text className="text_card">
+                <Card.Text>
                   <span>
                     Aplicação web para pesquisar informações de filmes. É
                     possivel saber a classificação da critica, receita

@@ -24,7 +24,7 @@ function tecnologias() {
       <div id="habilidades" className="height_general">
         <Container>
           <Row className="justify-content-md-between">
-            <Col>
+            <Col xl md="3" className="habilidade_text">
               <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>
                 Habilidades
               </span>
@@ -33,37 +33,36 @@ function tecnologias() {
                 *Passe o mouse em cima dos icones*
               </p>
             </Col>
-            <Col className="">
+            <Col xl md="9" className="habilidade_group">
               <div className="icon_habilidade">
                 <Row>
-                  <Col xl md="3">
-                    <DiJava className="java " />
+                  <Col xl md="3" className="hab">
+                    <DiJava className="java" />
                   </Col>
 
-                  <Col xl md="3">
-                    <FaPhp className="php  " />
+                  <Col xl md="3" className="hab">
+                    <FaPhp className="php" />
                   </Col>
-                  <Col xl md="3">
-                    <DiCss3 className="  " id="css" />
+                  <Col xl md="3" className="hab">
+                    <DiCss3 id="css" />
                   </Col>
-
-                  <Col xl md="3">
-                    <DiHtml5 className="  " id="html" />
+                  <Col xl md="3" className="hab">
+                    <DiHtml5 id="html" />
                   </Col>
                 </Row>
                 <Row>
-                  <Col xl md="3">
-                    <SiJavascript className="javascript   " />
+                  <Col xl md="3" className="hab ">
+                    <SiJavascript className="javascript" />
                   </Col>
-                  <Col xl md="3">
-                    <FaBootstrap className="bootstrap  " />
+                  <Col xl md="3" className="hab">
+                    <FaBootstrap className="bootstrap" />
                   </Col>
-                  <Col xl md="3">
-                    <FaReact className="react  " />
+                  <Col xl md="3" className="hab">
+                    <FaReact className="react" />
                   </Col>
 
-                  <Col xl md="3">
-                    <RxFigmaLogo className="figma  " />
+                  <Col xl md="3" className="hab">
+                    <RxFigmaLogo className="figma" />
                   </Col>
                 </Row>
               </div>
