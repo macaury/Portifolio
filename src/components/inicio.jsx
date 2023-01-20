@@ -22,7 +22,7 @@ function titulo() {
               <div className="titulo ">
                 <p>
                   Desenvolvedor Front-end com foco em
-                  <span> simplicidade,elegancia e eficiencia. </span>
+                  <span> Simplicidade,Elegância e Eficiência. </span>
                 </p>
               </div>
               <Row>

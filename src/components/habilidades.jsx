@@ -35,33 +35,33 @@ function tecnologias() {
             </Col>
             <Col xl md="9" className="habilidade_group">
               <div className="icon_habilidade">
-                <Row>
-                  <Col xl md="3" className="hab">
+                <Row className="d-flex justify-content-between">
+                  <Col  md="3" className="hab">
                     <DiJava className="java" />
                   </Col>
 
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <FaPhp className="php" />
                   </Col>
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <DiCss3 id="css" />
                   </Col>
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <DiHtml5 id="html" />
                   </Col>
                 </Row>
-                <Row>
-                  <Col xl md="3" className="hab ">
+                <Row className="d-flex justify-content-between">
+                  <Col  md="3" className="hab ">
                     <SiJavascript className="javascript" />
                   </Col>
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <FaBootstrap className="bootstrap" />
                   </Col>
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <FaReact className="react" />
                   </Col>
 
-                  <Col xl md="3" className="hab">
+                  <Col  md="3" className="hab">
                     <RxFigmaLogo className="figma" />
                   </Col>
                 </Row>
