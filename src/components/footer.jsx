@@ -4,8 +4,6 @@ import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 
-import tree_oak  from "../icons/tree_oak_footer.svg";
-
 function footer() {
   return (
     <>
