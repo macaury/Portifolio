@@ -21,7 +21,7 @@ const Barra_nav = () => {
             M.Carvalho
           </Navbar.Brand>
           <Nav>
-            <Nav.Link>
+            <Nav.Link >
               <span>
                 <Link 
                   activeClass="active"
@@ -35,7 +35,7 @@ const Barra_nav = () => {
                 </Link>
               </span>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link >
               <span>
                 <Link
                   activeClass="active"
@@ -49,7 +49,7 @@ const Barra_nav = () => {
                 </Link>
               </span>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link >
               <span>
                 <Link
                   activeClass="active"

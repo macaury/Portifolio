@@ -13,13 +13,18 @@
   background-color: white;
 }
 
+
 .active{
-  color: #e51d36;
-  cursor: pointer;
+  color: gray;
   transition-duration: 0.7s;
   text-decoration: none;
 }
-.titulo_hab{
+
+a:hover{
+  cursor: pointer;
+}
+
+.titulo_hab , .nav-link:hover , .active:hover{
   color:#e51d36;
 }
 
@@ -50,8 +55,7 @@
   height: 30px;
 }
 
-.card_sty:hover,
-.Barra_navegacao span:hover {
+.card_sty:hover{
   transform: scale(1.1);
 }
 
