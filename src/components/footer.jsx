@@ -11,7 +11,7 @@ function footer() {
     <>
       <div className="footer">
         <Container>
-          <Row>
+          <Row className=" justify-content-md-between">
             <Col>
               <span>
                 <a
@@ -23,10 +23,10 @@ function footer() {
                 </a>
               </span>
             </Col>
-            <Col className="mb-2">
+            <Col className="oak">
               <div>
                 {" Powered by "} 
-                <span style={{color : "red"}}> 
+                <span> 
                   {"{ Oak }"}
                   </span>
               </div>

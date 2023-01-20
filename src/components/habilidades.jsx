@@ -23,9 +23,7 @@ function tecnologias() {
     <>
       <div id="habilidades" className="height_general">
         <Container>
-          <Row
-            className="justify-content-md-between"
-          >
+          <Row className="justify-content-md-between">
             <Col>
               <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>
                 Habilidades
@@ -35,22 +33,40 @@ function tecnologias() {
                 *Passe o mouse em cima dos icones*
               </p>
             </Col>
-            <Col className="justify-content-md-center">
-              <Row>
-                <DiJava className="java icon teste_bg " />
+            <Col className="">
+              <div className="icon_habilidade">
+                <Row>
+                  <Col xl md="3">
+                    <DiJava className="java " />
+                  </Col>
 
-                <FaPhp className="php icon  teste_bg skills-cards-name-low" />
+                  <Col xl md="3">
+                    <FaPhp className="php  " />
+                  </Col>
+                  <Col xl md="3">
+                    <DiCss3 className="  " id="css" />
+                  </Col>
 
-                <DiCss3 className=" icon teste_bg" id="css" />
+                  <Col xl md="3">
+                    <DiHtml5 className="  " id="html" />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xl md="3">
+                    <SiJavascript className="javascript   " />
+                  </Col>
+                  <Col xl md="3">
+                    <FaBootstrap className="bootstrap  " />
+                  </Col>
+                  <Col xl md="3">
+                    <FaReact className="react  " />
+                  </Col>
 
-                <DiHtml5 className=" icon teste_bg" id="html" />
-              </Row>
-              <Row>
-                <SiJavascript className="javascript icon teste_bg " />
-                <FaBootstrap className="bootstrap icon teste_bg" />
-                <FaReact className="react icon teste_bg" />
-                <RxFigmaLogo className="figma icon teste_bg" />
-              </Row>
+                  <Col xl md="3">
+                    <RxFigmaLogo className="figma  " />
+                  </Col>
+                </Row>
+              </div>
             </Col>
           </Row>
         </Container>

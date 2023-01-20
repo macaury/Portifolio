@@ -18,12 +18,14 @@ const Barra_nav = () => {
       <Navbar className="Barra_navegacao linha" bg="outline-light" expand="lg">
         <Container>
           <Navbar.Brand className="No_bg" href="/">
-            M.Carvalho
+            <div className="oak">
+              <span >{"{ Oak }"}</span>
+            </div>
           </Navbar.Brand>
           <Nav>
-            <Nav.Link >
+            <Nav.Link>
               <span>
-                <Link 
+                <Link
                   activeClass="active"
                   to="inicio"
                   spy={true}
@@ -35,29 +37,29 @@ const Barra_nav = () => {
                 </Link>
               </span>
             </Nav.Link>
-            <Nav.Link >
+            <Nav.Link>
               <span>
                 <Link
                   activeClass="active"
                   to="sobre_mim"
                   spy={true}
                   smooth={true}
-                  offset={-30}
-                  duration={500}
+                  offset={-90}
+                  duration={400}
                 >
                   sobre mim
                 </Link>
               </span>
             </Nav.Link>
-            <Nav.Link >
+            <Nav.Link>
               <span>
                 <Link
                   activeClass="active"
                   to="projetos"
                   spy={true}
                   smooth={true}
-                  offset={-10}
-                  duration={500}
+                  offset={-100}
+                  duration={400}
                 >
                   Projetos
                 </Link>
@@ -70,9 +72,8 @@ const Barra_nav = () => {
                   to="servicos"
                   spy={true}
                   smooth={true}
-                  offset={-30}
+                  offset={-60}
                   duration={500}
-            
                 >
                   Serviços
                 </Link>

@@ -16,7 +16,7 @@ function projetos() {
             <span
               className="titulo_hab text-center linha"
               style={{
-                marginBottom: "30px",
+                marginBottom: "35px",
                 fontWeight: "600",
                 fontSize: "2.5rem",
               }}

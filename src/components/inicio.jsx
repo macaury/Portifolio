@@ -18,7 +18,7 @@ function titulo() {
             >
               <span>{"<Coder>"}</span>
             </div>
-            <div className="  text-center ">
+            <Col className="  text-center ">
               <div className="titulo ">
                 <p>
                   Desenvolvedor Front-end com foco em
@@ -31,7 +31,7 @@ function titulo() {
                   mim
                 </cite>
               </Row>
-            </div>
+            </Col>
           </Row>
         </Container>
       </div>

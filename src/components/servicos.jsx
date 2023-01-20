@@ -11,7 +11,7 @@ import design from "../assets/images/design.svg";
 function servicos() {
   return (
     <>
-      <div id="servicos" className="bg_projetos">
+      <div id="servicos" >
         <Container>
           <Row
             className="justify-content-md-between habilidades"
