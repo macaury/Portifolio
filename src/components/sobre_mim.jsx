@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-import img from "../images/img.png";
+import img from "./icons/img.png";
 
 function quemSou() {
   return (
@@ -26,6 +26,8 @@ function quemSou() {
           <Row className="d-flex">
             <Col xs md="7">
               <div className="">
+            
+
                 <img
                   src={img}
                   alt="macaury_carvalho"
