@@ -26,7 +26,6 @@ function quemSou() {
           <Row className="d-flex">
             <Col xs md="7">
               <div className="">
-            
 
                 <img
                   src={img}
