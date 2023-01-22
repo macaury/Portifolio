@@ -23,27 +23,25 @@ function projetos() {
             >
               Projetos
             </span>
-            <Col>
-              <div className="card_sty">
-                <Card.Body>
-                  <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
-                  <Card.Text>
-                    <span>
-                      Quiz sobre T.I. Possui tres niveis de dificuldade. Feito
-                      em ReactJS,html e bootstrap.
-                    </span>
-                  </Card.Text>
-                </Card.Body>
+            <div className="card_sty">
+              <Card.Body>
+                <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
+                <Card.Text>
+                  <span>
+                    Quiz sobre T.I. Possui tres niveis de dificuldade. Feito em
+                    ReactJS,html e bootstrap.
+                  </span>
+                </Card.Text>
+              </Card.Body>
 
-                <Button
-                  className="mb-3 visu_proj "
-                  href="https://pedrocslucas.github.io/quizz-tech-site/"
-                  target="_blank"
-                >
-                  Visualizar Projeto
-                </Button>
-              </div>
-            </Col>
+              <Button
+                className="mb-3 visu_proj "
+                href="https://pedrocslucas.github.io/quizz-tech-site/"
+                target="_blank"
+              >
+                Visualizar Projeto
+              </Button>
+            </div>
             <div>
               <div className="card_sty">
                 <Card.Body className="body_card">
@@ -67,27 +65,22 @@ function projetos() {
               </div>
             </div>
 
-            <Col>
-              <div className="card_sty">
-                <Card.Body className="body_card">
-                  <Card.Title className="mb-2 card_ti">
-                    Ranking Movies
-                  </Card.Title>
-                  <Card.Text>
-                    <span>
-                      Aplicação web para pesquisar informações de filmes. É
-                      possivel saber a classificação da critica, receita
-                      bilheteria, capital investido, tempo de exibição da
-                      pelicula e a sinopse. Desenvolvido com ReactJs,Html,Css e
-                      Vite.
-                    </span>
-                  </Card.Text>
-                </Card.Body>
-                <Button className="mb-3 visu_proj " variant="dark">
-                  Visualizar Projeto
-                </Button>
-              </div>
-            </Col>
+            <div className="card_sty">
+              <Card.Body className="body_card">
+                <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
+                <Card.Text>
+                  <span>
+                    Aplicação web para pesquisar informações de filmes. É
+                    possivel saber a classificação da critica, receita
+                    bilheteria, capital investido, tempo de exibição da pelicula
+                    e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
+                  </span>
+                </Card.Text>
+              </Card.Body>
+              <Button className="mb-3 visu_proj " variant="dark">
+                Visualizar Projeto
+              </Button>
+            </div>
           </Row>
         </Container>
       </div>
