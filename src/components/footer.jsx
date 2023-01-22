@@ -1,8 +1,6 @@
 import React from "react";
 
-import Col from "react-bootstrap/esm/Col";
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
+import {Col,Container,Row} from "react-bootstrap/esm/Col";
 
 function footer() {
   return (
