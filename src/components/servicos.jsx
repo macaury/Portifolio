@@ -2,7 +2,6 @@ import React from "react";
 
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
 
 import Phone from "./icons/phone";
 import Computer from "./icons/computer";
@@ -29,48 +28,48 @@ function servicos() {
               Serviços
             </span>
             <Col>
-              <Card className="card_serv">
+              <div className="card_serv">
                 <div>
                   <Phone />
                 </div>
-                <Card.Title className="mb-3 text-center card_ti">
+                <h5 className="mb-3 text-center card_ti">
                   Sites responsivos
-                </Card.Title>
-                <Card.Text className="text-justify">
+                </h5>
+                <p className="text-justify">
                   Crio interações que transmitem sensação de modernidade e
                   conforto, além de chamarem a atenção do usuário.
-                </Card.Text>
-              </Card>
+                </p>
+              </div>
             </Col>
             <Col>
-              <Card className="card_serv" style={{ background: "white" }}>
+              <div className="card_serv" style={{ background: "white" }}>
                 <div>
                   <Computer />
                 </div>
-                <Card.Title className="mb-3 text-center card_ti">
+                <h5 className="mb-3 text-center card_ti">
                   Desenvolvimento
-                </Card.Title>
-                <Card.Text className="text_card">
+                </h5>
+                <p className="text_card">
                   <span>
                     Desenvolvo sites profissionais, blogs, portfólios, landing
                     pages e e-commerce.
                   </span>
-                </Card.Text>
-              </Card>
+                </p>
+              </div>
             </Col>
             <Col>
-              <Card className="card_serv">
+              <div className="card_serv">
                 <div>
                   <Design />
                 </div>
-                <Card.Title className="mb-3 text-center card_ti">
+                <h5 className="mb-3 text-center card_ti">
                   Design moderno
-                </Card.Title>
-                <Card.Text>
+                </h5>
+                <p>
                   Crio interface de forma clara, objetiva e principalmente
                   intuitiva para o usuário.
-                </Card.Text>
-              </Card>
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>

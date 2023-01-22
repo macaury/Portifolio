@@ -24,7 +24,7 @@ function projetos() {
               Projetos
             </span>
             <Col>
-              <Card className="card_sty">
+              <div className="card_sty">
                 <Card.Body>
                   <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
                   <Card.Text>
@@ -42,10 +42,10 @@ function projetos() {
                 >
                   Visualizar Projeto
                 </Button>
-              </Card>
+              </div>
             </Col>
-            <Col>
-              <Card className="card_sty">
+            <div>
+              <div className="card_sty">
                 <Card.Body className="body_card">
                   <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
                   <Card.Text>
@@ -64,11 +64,11 @@ function projetos() {
                 >
                   Visualizar Projeto
                 </Button>
-              </Card>
-            </Col>
+              </div>
+            </div>
 
             <Col>
-              <Card className="card_sty">
+              <div className="card_sty">
                 <Card.Body className="body_card">
                   <Card.Title className="mb-2 card_ti">
                     Ranking Movies
@@ -86,7 +86,7 @@ function projetos() {
                 <Button className="mb-3 visu_proj " variant="dark">
                   Visualizar Projeto
                 </Button>
-              </Card>
+              </div>
             </Col>
           </Row>
         </Container>
