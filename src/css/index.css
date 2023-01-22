@@ -143,6 +143,7 @@ a:hover {
 .visu_proj {
   background-color: var(--tertiary-color);
   border-color: var(--tertiary-color);
+  
 }
 
 .visu_proj:hover {

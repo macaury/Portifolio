@@ -35,7 +35,7 @@ function projetos() {
               </Card.Body>
 
               <Button
-                className="mb-3 visu_proj "
+                className="mb-3 btn_projeto "
                 href="https://pedrocslucas.github.io/quizz-tech-site/"
                 target="_blank"
               >
@@ -56,9 +56,7 @@ function projetos() {
                   </Card.Text>
                 </Card.Body>
                 <Button
-                  className="mb-3 visu_proj "
-                  variant="dark"
-                  style={{ with: "100%" }}
+                  className="mb-3 btn_projeto "
                 >
                   Visualizar Projeto
                 </Button>
@@ -77,7 +75,7 @@ function projetos() {
                   </span>
                 </Card.Text>
               </Card.Body>
-              <Button className="mb-3 visu_proj " variant="dark">
+              <Button className="mb-3 btn_projeto " >
                 Visualizar Projeto
               </Button>
             </div>
