@@ -21,8 +21,6 @@ const Barra_nav = () => {
    
   }
 
-
-
   return (
     <>
       <Navbar className="Barra_navegacao linha " bg="outline-light" expand="lg">
