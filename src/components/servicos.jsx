@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card";
 import Phone from "./icons/phone";
 import Computer from "./icons/computer";
 import Design from "./icons/design";
+import { Col } from "react-bootstrap";
 
 function servicos() {
   return (
@@ -27,47 +28,50 @@ function servicos() {
             >
               Serviços
             </span>
-
-            <Card className="card_serv">
-              <div>
-                <Phone />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Sites responsivos
-              </Card.Title>
-              <Card.Text className="text-justify">
-                Crio interações que transmitem sensação de modernidade e
-                conforto, além de chamarem a atenção do usuário.
-              </Card.Text>
-            </Card>
-
-            <Card className="card_serv" style={{ background: "white" }}>
-              <div>
-                <Computer />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Desenvolvimento
-              </Card.Title>
-              <Card.Text className="text_card">
-                <span>
-                  Desenvolvo sites profissionais, blogs, portfólios, landing
-                  pages e e-commerce.
-                </span>
-              </Card.Text>
-            </Card>
-
-            <Card className="card_serv">
-              <div>
-                <Design />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Design moderno
-              </Card.Title>
-              <Card.Text>
-                Crio interface de forma clara, objetiva e principalmente
-                intuitiva para o usuário.
-              </Card.Text>
-            </Card>
+            <Col>
+              <Card className="card_serv">
+                <div>
+                  <Phone />
+                </div>
+                <Card.Title className="mb-3 text-center card_ti">
+                  Sites responsivos
+                </Card.Title>
+                <Card.Text className="text-justify">
+                  Crio interações que transmitem sensação de modernidade e
+                  conforto, além de chamarem a atenção do usuário.
+                </Card.Text>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="card_serv" style={{ background: "white" }}>
+                <div>
+                  <Computer />
+                </div>
+                <Card.Title className="mb-3 text-center card_ti">
+                  Desenvolvimento
+                </Card.Title>
+                <Card.Text className="text_card">
+                  <span>
+                    Desenvolvo sites profissionais, blogs, portfólios, landing
+                    pages e e-commerce.
+                  </span>
+                </Card.Text>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="card_serv">
+                <div>
+                  <Design />
+                </div>
+                <Card.Title className="mb-3 text-center card_ti">
+                  Design moderno
+                </Card.Title>
+                <Card.Text>
+                  Crio interface de forma clara, objetiva e principalmente
+                  intuitiva para o usuário.
+                </Card.Text>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </div>
