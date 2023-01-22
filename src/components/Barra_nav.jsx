@@ -10,8 +10,18 @@ import { DiGithubBadge } from "react-icons/di";
 
 import { FaLinkedin } from "react-icons/fa";
 
+import Menu from "./icons/menu";
+import Button from "react-bootstrap/Button";
+
+
 const Barra_nav = () => {
-  const closeMenu = () => setClick(false);
+
+  const teste = () => {
+   
+   
+  }
+
+
 
   return (
     <>
@@ -19,10 +29,10 @@ const Barra_nav = () => {
         <Container>
           <Navbar.Brand className="No_bg" href="/">
             <div className="oak">
-              <span >{"{ Oak }"}</span>
+              <span>{"{ Oak }"}</span>
             </div>
           </Navbar.Brand>
-          <Nav>
+          <Nav className="links_navbar">
             <Nav.Link>
               <span>
                 <Link
@@ -94,7 +104,7 @@ const Barra_nav = () => {
               </span>
             </Nav.Link>
           </Nav>
-          <Nav>
+          <Nav className="social">
             <Nav.Link
               href={
                 "https://github.com/macaury?tab=overview&from=2023-01-01&to=2023-01-19"
@@ -102,9 +112,14 @@ const Barra_nav = () => {
             >
               <DiGithubBadge className="bi" />
             </Nav.Link>
-            <Nav.Link href={"#"}>
+            <Nav.Link href={"https://www.linkedin.com/in/macaury-carvalho/"}>
               <FaLinkedin className="bi" />
             </Nav.Link>
+          </Nav>
+          <Nav className="menu">
+            <Button onClick={teste}>
+              <Menu/>
+            </Button>
           </Nav>
         </Container>
       </Navbar>

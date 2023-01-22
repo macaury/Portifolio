@@ -17,15 +17,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <div>
-        <Barra_nav />
-        <Titulo />
-        <Quem_sou />
-        <Projetos />
-        <Servicos />
-        <Tecnologias />
-        <Footer />
-      </div>
+      <Barra_nav />
+      <Titulo />
+      <Quem_sou />
+      <Projetos />
+      <Servicos />
+      <Tecnologias />
+      <Footer />
     </>
   );
 }

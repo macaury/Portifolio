@@ -8,6 +8,10 @@ import cell_phone from "../images/cell_phone.svg";
 import computer from "../images/computer.svg";
 import design from "../images/design.svg";
 
+import Phone from "./icons/phone";
+import Computer from "./icons/computer";
+import Design from "./icons/design";
+
 function servicos() {
   return (
     <>
@@ -30,7 +34,7 @@ function servicos() {
 
             <Card className="card_serv">
               <div>
-                <img src={cell_phone} alt="Celular" />
+                <Phone />
               </div>
               <Card.Title className="mb-3 text-center card_ti">
                 Sites responsivos
@@ -43,7 +47,7 @@ function servicos() {
 
             <Card className="card_serv" style={{ background: "white" }}>
               <div>
-                <img src={computer} alt="Computador" />
+                <Computer />
               </div>
               <Card.Title className="mb-3 text-center card_ti">
                 Desenvolvimento
@@ -58,14 +62,14 @@ function servicos() {
 
             <Card className="card_serv">
               <div>
-                <img src={design} alt="Caneta_antiga " />
+                <Design />
               </div>
               <Card.Title className="mb-3 text-center card_ti">
                 Design moderno
               </Card.Title>
-              <Card.Text >
-                Crio interface de forma clara, objetiva e
-                principalmente intuitiva para o usuário.
+              <Card.Text>
+                Crio interface de forma clara, objetiva e principalmente
+                intuitiva para o usuário.
               </Card.Text>
             </Card>
           </Row>
