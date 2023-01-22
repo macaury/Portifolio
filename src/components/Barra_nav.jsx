@@ -27,7 +27,7 @@ const Barra_nav = () => {
     <>
       <Navbar className="Barra_navegacao linha" bg="outline-light" expand="lg">
         <Container>
-          <Navbar.Brand className="No_bg" href="/">
+          <Navbar.Brand className="No_bg" href="#">
             <div className="oak">
               <span>{"{ Oak }"}</span>
             </div>
