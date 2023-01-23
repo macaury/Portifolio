@@ -43,9 +43,8 @@ function projetos() {
               </Button>
             </Card>
 
-
             <Card className="card_sty">
-              <Card.Body >
+              <Card.Body>
                 <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
                 <Card.Text>
                   <span>
@@ -56,11 +55,17 @@ function projetos() {
                   </span>
                 </Card.Text>
               </Card.Body>
-              <Button className="mb-3 btn_projeto ">Visualizar Projeto</Button>
+              <Button
+                className="mb-3 btn_projeto"
+                href="https://github.com/macaury/karowara"
+                target="_blank"
+              >
+                Visualizar Projeto
+              </Button>
             </Card>
 
             <Card className="card_sty">
-              <Card.Body >
+              <Card.Body>
                 <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                 <Card.Text>
                   <span>
@@ -71,7 +76,13 @@ function projetos() {
                   </span>
                 </Card.Text>
               </Card.Body>
-              <Button className="mb-3 btn_projeto ">Visualizar Projeto</Button>
+              <Button
+                className="mb-3 btn_projeto"
+                href="https://github.com/macaury/ranking_movies"
+                target="_blank"
+              >
+                Visualizar Projeto
+              </Button>
             </Card>
           </Row>
         </Container>

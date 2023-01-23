@@ -16,9 +16,11 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RxFigmaLogo } from "react-icons/rx";
 
-import "../assets/mudarDescricao";
+
+import EventoMousedescricao from "../assets/EventoMousedescricao"
 
 function tecnologias() {
+
   return (
     <>
       <div id="habilidades" className="height_general">
@@ -36,33 +38,33 @@ function tecnologias() {
             <Col xl md="9" className="habilidade_group">
               <div className="icon_habilidade">
                 <Row className="d-flex justify-content-between">
-                  <Col  md="3" className="hab">
-                    <DiJava className="java" />
+                  <Col md="3" className="hab">
+                    <DiJava id="java"  onMouseOver={EventoMousedescricao} />
                   </Col>
 
-                  <Col  md="3" className="hab">
-                    <FaPhp className="php" />
+                  <Col md="3" className="hab">
+                    <FaPhp id="php"  onMouseOver={EventoMousedescricao} />
                   </Col>
-                  <Col  md="3" className="hab">
-                    <DiCss3 id="css" />
+                  <Col md="3" className="hab">
+                    <DiCss3 id="css"  onMouseOver={EventoMousedescricao}  />
                   </Col>
-                  <Col  md="3" className="hab">
-                    <DiHtml5 id="html" />
+                  <Col md="3" className="hab">
+                    <DiHtml5 id="html" onMouseOver={EventoMousedescricao} />
                   </Col>
                 </Row>
                 <Row className="d-flex justify-content-between">
-                  <Col  md="3" className="hab ">
-                    <SiJavascript className="javascript" />
+                  <Col md="3" className="hab ">
+                    <SiJavascript id="javascript" />
                   </Col>
-                  <Col  md="3" className="hab">
-                    <FaBootstrap className="bootstrap" />
+                  <Col md="3" className="hab">
+                    <FaBootstrap id="bootstrap" />
                   </Col>
-                  <Col  md="3" className="hab">
-                    <FaReact className="react" />
+                  <Col md="3" className="hab">
+                    <FaReact id="react" />
                   </Col>
 
-                  <Col  md="3" className="hab">
-                    <RxFigmaLogo className="figma" />
+                  <Col md="3" className="hab">
+                    <RxFigmaLogo id="figma" />
                   </Col>
                 </Row>
               </div>
