@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { DiJava } from "react-icons/di";
 
 function projetos() {
   return (
@@ -23,7 +22,7 @@ function projetos() {
             >
               Projetos
             </span>
-            
+
             <Card className="card_sty">
               <Card.Body>
                 <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
@@ -46,7 +45,7 @@ function projetos() {
 
 
             <Card className="card_sty">
-              <Card.Body className="body_card">
+              <Card.Body >
                 <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
                 <Card.Text>
                   <span>
@@ -61,7 +60,7 @@ function projetos() {
             </Card>
 
             <Card className="card_sty">
-              <Card.Body className="body_card">
+              <Card.Body >
                 <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                 <Card.Text>
                   <span>

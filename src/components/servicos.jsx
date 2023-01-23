@@ -2,11 +2,13 @@ import React from "react";
 
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
+
+
 
 import Computer from "./icons/computer";
 import Design from "./icons/design";
 import Phone from "./icons/phone";
-import Card from "react-bootstrap/Card";
 
 function servicos() {
   return (
@@ -43,11 +45,10 @@ function servicos() {
             </Card>
 
             <Card className="card_serv" style={{ background: "white" }}>
-              <Card.Body className="body_card">
+              <Card.Body>
                 <div>
                   <Computer />
                 </div>
-
                 <Card.Title className="mb-3 text-center card_ti">
                   Desenvolvimento
                 </Card.Title>

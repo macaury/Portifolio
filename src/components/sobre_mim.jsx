@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-//import img from "./icons/img.png";
+import img from "../images/img.png";
 
 function quemSou() {
   return (
@@ -28,7 +28,7 @@ function quemSou() {
               <div className="">
 
                 <img
-                  src=""
+                  src={img}
                   alt="macaury_carvalho"
                   style={{ with: "20rem", height: "20rem" }}
                 />
