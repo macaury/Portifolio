@@ -3,8 +3,10 @@ import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 
-import { Design, Computer, Phone } from "./icons";
-import { Card, Col } from "react-bootstrap";
+import Computer from "./icons/computer";
+import Design from "./icons/design";
+import Phone from "./icons/phone";
+import Card from "react-bootstrap/Card";
 
 function servicos() {
   return (
@@ -26,42 +28,49 @@ function servicos() {
               Serviços
             </span>
             <Card className="card_serv">
-              <div>
-                <Phone />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Sites responsivos
-              </Card.Title>
-              <p className="text-justify">
-                Crio interações que transmitem sensação de modernidade e
-                conforto, além de chamarem a atenção do usuário.
-              </p>
+              <Card.Body>
+                <div>
+                  <Phone />
+                </div>
+                <Card.Title className="mb-3 text-center card_ti">
+                  Sites responsivos
+                </Card.Title>
+                <p className="text_card">
+                  Crio interações que transmitem sensação de modernidade e
+                  conforto, além de chamarem a atenção do usuário.
+                </p>
+              </Card.Body>
             </Card>
-            <div className="card_serv" style={{ background: "white" }}>
-              <div>
-                <Computer />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Desenvolvimento
-              </Card.Title>
-              <p className="text_card">
-                <span>
+
+            <Card className="card_serv" style={{ background: "white" }}>
+              <Card.Body className="body_card">
+                <div>
+                  <Computer />
+                </div>
+
+                <Card.Title className="mb-3 text-center card_ti">
+                  Desenvolvimento
+                </Card.Title>
+                <p className="text_card">
                   Desenvolvo sites profissionais, blogs, portfólios, landing
                   pages e e-commerce.
-                </span>
-              </p>
-            </div>
+                </p>
+              </Card.Body>
+            </Card>
+
             <Card className="card_serv">
-              <div>
-                <Design />
-              </div>
-              <Card.Title className="mb-3 text-center card_ti">
-                Design moderno
-              </Card.Title>
-              <p>
-                Crio interface de forma clara, objetiva e principalmente
-                intuitiva para o usuário.
-              </p>
+              <Card.Body>
+                <div>
+                  <Design />
+                </div>
+                <Card.Title className="mb-3 text-center card_ti">
+                  Design moderno
+                </Card.Title>
+                <p className="text_card">
+                  Crio interface de forma clara, objetiva e principalmente
+                  intuitiva para o usuário.
+                </p>
+              </Card.Body>
             </Card>
           </Row>
         </Container>

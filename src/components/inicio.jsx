@@ -14,7 +14,7 @@ function titulo() {
           <Row className="  justify-content-md-between">
             <div
               className="coder text-center"
-              style={{ marginTop: "20%", marginBottom: "5px" }}
+              style={{ marginTop: "25%", marginBottom: "5px" }}
             >
               <span>{"<Coder>"}</span>
             </div>

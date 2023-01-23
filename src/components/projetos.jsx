@@ -23,7 +23,8 @@ function projetos() {
             >
               Projetos
             </span>
-            <div className="card_sty">
+            
+            <Card className="card_sty">
               <Card.Body>
                 <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
                 <Card.Text>
@@ -41,29 +42,25 @@ function projetos() {
               >
                 Visualizar Projeto
               </Button>
-            </div>
-            <div>
-              <div className="card_sty">
-                <Card.Body className="body_card">
-                  <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
-                  <Card.Text>
-                    <span>
-                      software criado para auxiliar os professores no ensino de
-                      noções de algoritmo, e facilitar a visualização de
-                      estruturas abstratas básicas. Desenvolvido totalmente em
-                      Java.
-                    </span>
-                  </Card.Text>
-                </Card.Body>
-                <Button
-                  className="mb-3 btn_projeto "
-                >
-                  Visualizar Projeto
-                </Button>
-              </div>
-            </div>
+            </Card>
 
-            <div className="card_sty">
+
+            <Card className="card_sty">
+              <Card.Body className="body_card">
+                <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
+                <Card.Text>
+                  <span>
+                    software criado para auxiliar os professores no ensino de
+                    noções de algoritmo, e facilitar a visualização de
+                    estruturas abstratas básicas. Desenvolvido totalmente em
+                    Java.
+                  </span>
+                </Card.Text>
+              </Card.Body>
+              <Button className="mb-3 btn_projeto ">Visualizar Projeto</Button>
+            </Card>
+
+            <Card className="card_sty">
               <Card.Body className="body_card">
                 <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                 <Card.Text>
@@ -75,10 +72,8 @@ function projetos() {
                   </span>
                 </Card.Text>
               </Card.Body>
-              <Button className="mb-3 btn_projeto " >
-                Visualizar Projeto
-              </Button>
-            </div>
+              <Button className="mb-3 btn_projeto ">Visualizar Projeto</Button>
+            </Card>
           </Row>
         </Container>
       </div>
