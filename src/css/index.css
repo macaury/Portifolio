@@ -26,7 +26,7 @@ a:hover {
   cursor: pointer;
 }
 
-.titulo_hab,
+.titulo,
 .nav-link:hover,
 .active:hover {
   color: var(--primary-color);
@@ -75,16 +75,15 @@ a:hover {
   cursor: pointer;
 }
 
-.card_sty{
+.card_sty {
   width: 25rem;
   height: 25rem;
   background-color: var(--secondary-color);
   border: solid 2px var(--secondary-color);
 }
 
-.card_sty , .card_serv{
- 
-
+.card_sty,
+.card_serv {
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
@@ -96,11 +95,10 @@ a:hover {
 /*Estilo Cards section Serviços*/
 
 .card_serv {
-  width: 20rem ;
-  height: 18rem ;
+  width: 20rem;
+  height: 18rem;
   background-color: var(--tertiary-color);
   border: solid 2px var(--tertiary-color);
-
 }
 
 .card_serv:hover {
@@ -112,7 +110,6 @@ a:hover {
 .card_serv img {
   padding-bottom: 20px;
 }
-
 
 .card_sty p,
 .card_serv p {
@@ -144,7 +141,7 @@ a:hover {
 .bg_projetos {
   background-color: var(--secondary-color);
   padding-bottom: 5%;
-  width: 100% !important;
+  width: 100%;
 }
 
 .footer {
@@ -217,7 +214,7 @@ a:hover {
   height: 80%;
   margin-bottom: 5%;
   margin-top: 5%;
-  width: 100% !important;
+  width: 100%;
 }
 
 #sobre_mim p {
@@ -225,26 +222,46 @@ a:hover {
   font-size: 1.3rem;
 }
 
+#sobre_mim > img {
+  width: 25rem;
+  height: 25rem;
+}
 
 /*
 nav-bar mobile
 */
 
-@media screen and (min-width : 991px){
+@media screen and (min-width: 991px) {
   .menu {
-    display:none;
+    display: none;
   }
-
 }
 
-@media screen and (max-width : 990px){
-  .links_navbar , .social{
-   display: none;
-  
+@media screen and (max-width: 990px) {
+  .links_navbar,
+  .social {
+    display: none;
   }
-  .menu button{
+  .card_sty {
+    margin: 0;
+    margin-top: 30px;
+    width: 20rem;
+    height: 25rem;
+    padding: 25px;
+  }
+  .menu button {
     background-color: white;
     border: 1px solid var(--primary-color);
   }
-}
 
+  #sobre_mim > img {
+    width: 15rem;
+    height: 15rem;
+  }
+  #sobre_mim p {
+    padding: 20px;
+  }
+  .hab {
+    flex-grow: 1;
+  }
+}

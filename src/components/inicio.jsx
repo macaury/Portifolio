@@ -11,22 +11,22 @@ function titulo() {
     <>
       <div id="inicio"  style={{paddingBottom: "2%"}}>
         <Container >
-          <Row className="  justify-content-md-between">
+          <Row className="justify-content-md-center text-center">
             <div
               className="coder text-center"
               style={{ marginTop: "25%", marginBottom: "5px" }}
             >
               <span>{"<Coder>"}</span>
             </div>
-            <Col className="  text-center ">
-              <div className="titulo ">
+            <Col>
+              <div className="titulo_inicio ">
                 <p>
                   Desenvolvedor Front-end com foco em
-                  <span> Simplicidade,Elegância e Eficiência. </span>
+                  <span > Simplicidade,Elegância e Eficiência.</span>
                 </p>
               </div>
               <Row>
-                <cite className=" cite_scroll text-center">
+                <cite >
                   - Permita-se e gire o scroll do mouse para saber mais sobre
                   mim
                 </cite>

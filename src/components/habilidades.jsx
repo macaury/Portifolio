@@ -17,8 +17,6 @@ import { FaReact } from "react-icons/fa";
 import { RxFigmaLogo } from "react-icons/rx";
 
 
-import EventoMousedescricao from "../assets/EventoMousedescricao"
-
 function tecnologias() {
 
   return (
@@ -27,7 +25,7 @@ function tecnologias() {
         <Container>
           <Row className="justify-content-md-between">
             <Col xl md="3" className="habilidade_text">
-              <span className="titulo_hab linha" style={{ fontSize: "2.5rem" }}>
+              <span className="titulo linha">
                 Habilidades
               </span>
 
@@ -39,17 +37,17 @@ function tecnologias() {
               <div className="icon_habilidade">
                 <Row className="d-flex justify-content-between">
                   <Col md="3" className="hab">
-                    <DiJava id="java"  onMouseOver={EventoMousedescricao} />
+                    <DiJava id="java"  />
                   </Col>
 
                   <Col md="3" className="hab">
-                    <FaPhp id="php"  onMouseOver={EventoMousedescricao} />
+                    <FaPhp id="php"  />
                   </Col>
                   <Col md="3" className="hab">
-                    <DiCss3 id="css"  onMouseOver={EventoMousedescricao}  />
+                    <DiCss3 id="css"  />
                   </Col>
                   <Col md="3" className="hab">
-                    <DiHtml5 id="html" onMouseOver={EventoMousedescricao} />
+                    <DiHtml5 id="html" />
                   </Col>
                 </Row>
                 <Row className="d-flex justify-content-between">

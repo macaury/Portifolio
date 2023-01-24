@@ -13,11 +13,9 @@ function projetos() {
         <Container>
           <Row className="justify-content-md-between">
             <span
-              className="titulo_hab text-center linha"
+              className="titulo text-center linha"
               style={{
                 marginBottom: "35px",
-                fontWeight: "600",
-                fontSize: "2.5rem",
               }}
             >
               Projetos

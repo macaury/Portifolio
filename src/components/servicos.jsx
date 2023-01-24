@@ -20,7 +20,7 @@ function servicos() {
             style={{ paddingTop: "5%" }}
           >
             <span
-              className="titulo_hab text-center "
+              className="titulo text-center "
               style={{
                 marginBottom: "50px",
                 fontWeight: "600",
