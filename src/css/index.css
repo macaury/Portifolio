@@ -264,7 +264,11 @@ a:hover {
   transition-duration: 0.8s;
 }
 
-.profile_pict{
+.profile_pict {
+  
+  width: 18rem;
+  height: 18rem;
+  background-repeat: no-repeat;
   background-image: url("../components/icons/img.png");
 }
 
