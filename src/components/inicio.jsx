@@ -9,8 +9,8 @@ import { CiBezier } from "react-icons/ci";
 function titulo() {
   return (
     <>
-      <div id="inicio"  style={{paddingBottom: "2%"}}>
-        <Container >
+      <div id="inicio" style={{ paddingBottom: "2%" }}>
+        <Container>
           <Row className="justify-content-md-center text-center">
             <div
               className="coder text-center"
@@ -22,11 +22,11 @@ function titulo() {
               <div className="titulo_inicio ">
                 <p>
                   Desenvolvedor Front-end com foco em
-                  <span > Simplicidade,Elegância e Eficiência.</span>
+                  <span> Simplicidade,Elegância e Eficiência.</span>
                 </p>
               </div>
               <Row>
-                <cite >
+                <cite>
                   - Permita-se e gire o scroll do mouse para saber mais sobre
                   mim
                 </cite>

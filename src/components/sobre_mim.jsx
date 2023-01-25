@@ -21,8 +21,8 @@ function quemSou() {
             </span>
           </Row>
           <Row className="d-flex flex-row ">
-            <Col xs md="7">
-              <div className="">
+            <Col xs md="7" sm="6">
+              <div>
                 <img
                   src={img}
                   alt="macaury_carvalho"
@@ -30,7 +30,7 @@ function quemSou() {
                 />
               </div>
             </Col>
-            <Col xs md="5">
+            <Col xs md="5" sm="6">
               <p>
                 Meu nome é Macaury Carvalho.Sou amante de café, design simples e ouvinte de mpb.Atualmente trabalho como
                 freenlancer de desenvolvimento front-end e Ui design.
