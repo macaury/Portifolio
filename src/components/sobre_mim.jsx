@@ -22,7 +22,7 @@ function quemSou() {
           </Row>
           <Row className="d-flex flex-row ">
             <Col xs md="7" sm="6">
-              <div>
+              <div className="profile_pict">
                 <img
                   src={img}
                   alt="macaury_carvalho"

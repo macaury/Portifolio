@@ -264,6 +264,10 @@ a:hover {
   transition-duration: 0.8s;
 }
 
+.profile_pict{
+  background-image: url("../components/icons/img.png");
+}
+
 /*
 nav-bar mobile
 */
