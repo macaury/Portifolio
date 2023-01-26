@@ -19,9 +19,11 @@ function quemSou() {
               Quem sou
             </span>
           </Row>
-          <Row className="d-flex flex-row  ">
+          <Row className=" ">
             <Col xs md="7" sm="5">
-              <div className="profile_pict align-items-center"></div>
+              <div className="text-center">
+                <div className="profile_pict " />
+              </div>
             </Col>
             <Col xs md="5" sm="7">
               <p>

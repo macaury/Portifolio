@@ -265,13 +265,12 @@ a:hover {
 }
 
 .profile_pict {
-  
-  width: 18rem;
-  height: 18rem;
+  margin: auto;
+  display: block !important;
+  width: 250px !important;
+  height: 250px !important;
   background-repeat: no-repeat;
   background-image: url("../components/icons/img.png");
-
-  
 }
 
 /*
@@ -279,6 +278,7 @@ nav-bar mobile
 */
 
 @media screen and (max-width: 990px) {
+  
   .logo {
     display: block;
     position: absolute;
@@ -294,7 +294,7 @@ nav-bar mobile
   }
 
   .links_navbar_mobile {
-    position: absolute;
+    position: absolute !important;
     display: block;
     background-color: var(--primary-color);
     left: 0;
@@ -314,6 +314,14 @@ nav-bar mobile
     transition: all 0.5s ease;
   }
 
+  .align-box {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .mobile_menu {
     display: block;
     position: absolute;
@@ -325,21 +333,32 @@ nav-bar mobile
     transition: all 0.8s;
   }
 
-  .card_sty {
-    margin: 0;
-    margin-top: 30px;
-    width: 20rem;
-    height: 25rem;
-    padding: 25px;
+  .titulo_inicio p {
+    word-spacing: 5px;
+    font-size: 1.7rem !important;
   }
 
   #sobre_mim > img {
     width: 15rem;
     height: 15rem;
   }
+
   #sobre_mim p {
     padding: 20px;
   }
+
+  .card_sty {
+    margin: 20px;
+    margin-top: 30px;
+    width: 180px !important;
+    height: 25rem;
+    padding: 25px;
+  }
+  .card_sty:hover {
+    transform: none;
+    height: 25rem;
+  }
+
   .hab {
     flex-grow: 1;
   }

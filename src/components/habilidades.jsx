@@ -30,7 +30,6 @@ function tecnologias() {
               </span>
 
               <p className="mudarDescricao" style={{ color: "gray" }}>
-                *Passe o mouse em cima dos icones*
               </p>
             </Col>
             <Col xl md="9" className="habilidade_group">
@@ -75,3 +74,5 @@ function tecnologias() {
 }
 
 export default tecnologias;
+
+//*Passe o mouse em cima dos icones*

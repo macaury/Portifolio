@@ -12,26 +12,28 @@ function titulo() {
       <div id="inicio" style={{ paddingBottom: "2%" }}>
         <Container>
           <Row className="justify-content-md-center text-center">
-            <div
-              className="coder text-center"
-              style={{ marginTop: "25%", marginBottom: "5px" }}
-            >
-              <span>{"<Coder>"}</span>
-            </div>
-            <Col>
-              <div className="titulo_inicio ">
-                <p>
-                  Desenvolvedor Front-end com foco em
-                  <span> Simplicidade,Elegância e Eficiência.</span>
-                </p>
+            <div className="align-box">
+              <div
+                className="coder text-center"
+               
+              >
+                <span>{"<Coder>"}</span>
               </div>
-              <Row>
-                <cite>
-                  - Permita-se e gire o scroll do mouse para saber mais sobre
-                  mim
-                </cite>
-              </Row>
-            </Col>
+              <Col>
+                <div className="titulo_inicio ">
+                  <p>
+                    Desenvolvedor Front-end com foco em
+                    <span> Simplicidade,Elegância e Eficiência.</span>
+                  </p>
+                </div>
+                <Row>
+                  <cite>
+                    - Permita-se e gire o scroll do mouse para saber mais sobre
+                    mim
+                  </cite>
+                </Row>
+              </Col>
+            </div>
           </Row>
         </Container>
       </div>
@@ -42,7 +44,8 @@ function titulo() {
 export default titulo;
 
 /*
-
+ style={{ marginTop: "25%", marginBottom: "5px" }}
+ 
 <Col>
             <CiBezier
               style={{
