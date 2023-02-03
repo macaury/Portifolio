@@ -23,18 +23,17 @@ function projetos() {
 
             <Card className="card_sty">
               <Card.Body>
-                <Card.Title className="mb-2 card_ti">QuiZztech</Card.Title>
+                <Card.Title className="mb-2 card_ti">Green Panther</Card.Title>
                 <Card.Text>
                   <span>
-                    Quiz sobre T.I. Possui tres niveis de dificuldade. Feito em
-                    ReactJS,html e bootstrap.
+                    E-commerce feito com reactjs,bootstrap.
                   </span>
                 </Card.Text>
               </Card.Body>
 
               <Button
                 className="mb-3 btn_projeto "
-                href="https://pedrocslucas.github.io/quizz-tech-site/"
+                href="https://macaury.github.io/Green-Panther/"
                 target="_blank"
               >
                 Visualizar Projeto
