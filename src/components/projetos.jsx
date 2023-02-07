@@ -22,12 +22,11 @@ function projetos() {
             </span>
 
             <Card className="card_sty">
+              <Card.Title className="mb-2 card_ti">Green Panther</Card.Title>
+              <Card.Img variant="top" src="https://user-images.githubusercontent.com/64115668/216777142-985ed6c0-ee51-4cdb-95b7-290c0b2350d0.png" />
               <Card.Body>
-                <Card.Title className="mb-2 card_ti">Green Panther</Card.Title>
                 <Card.Text>
-                  <span>
-                    E-commerce feito com reactjs,bootstrap.
-                  </span>
+                  <span>Desenvolvido com ReactJs,Html,Css e Vite.</span>
                 </Card.Text>
               </Card.Body>
 
@@ -48,7 +47,7 @@ function projetos() {
                     software criado para auxiliar os professores no ensino de
                     noções de algoritmo, e facilitar a visualização de
                     estruturas abstratas básicas. Desenvolvido totalmente em
-                    Java.
+                    Java - Desktop.
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -62,15 +61,14 @@ function projetos() {
             </Card>
 
             <Card className="card_sty">
+              <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://user-images.githubusercontent.com/64115668/197311438-a9878d71-4da1-4b57-8b83-2451ff11c253.jpeg"
+              />
               <Card.Body>
-                <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
                 <Card.Text>
-                  <span>
-                    Aplicação web para pesquisar informações de filmes. É
-                    possivel saber a classificação da critica, receita
-                    bilheteria, capital investido, tempo de exibição da pelicula
-                    e a sinopse. Desenvolvido com ReactJs,Html,Css e Vite.
-                  </span>
+                  <span>Desenvolvido com API:The Movie Db,ReactJs,Html,Css,Vite.</span>
                 </Card.Text>
               </Card.Body>
               <Button

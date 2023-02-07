@@ -1,8 +1,5 @@
 import React from "react";
 
-import "./assets/mudarDescricao";
-import "./assets/EventoMousedescricao";
-
 import Barra_nav from "./components/Barra_nav";
 import Titulo from "./components/inicio";
 import Tecnologias from "./components/habilidades";
