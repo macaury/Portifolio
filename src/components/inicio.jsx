@@ -6,6 +6,9 @@ import Row from "react-bootstrap/esm/Row";
 
 import { CiBezier } from "react-icons/ci";
 
+import { Typewriter } from "react-simple-typewriter";
+
+
 function titulo() {
   return (
     <>
@@ -13,17 +16,21 @@ function titulo() {
         <Container>
           <Row className="justify-content-md-center text-center">
             <div className="align-box">
-              <div
-                className="coder text-center"
-               
-              >
+              <div className="coder text-center">
                 <span>{"<Coder>"}</span>
               </div>
               <Col>
                 <div className="titulo_inicio ">
                   <p>
-                    Desenvolvedor Front-end com foco em
-                    <span> Simplicidade,Elegância e Eficiência.</span>
+                    Desenvolvedor Front-end com foco em {" "}
+                    <Typewriter
+                      words={["Simplicidade", "Elegância", "Eficiência"]}
+                      loop={0}
+                      cursorStyle="|"
+                      typeSpeed={70}
+                      deleteSpeed={80}
+                      delaySpeed={1000}
+                    />
                   </p>
                 </div>
                 <Row>
@@ -42,22 +49,3 @@ function titulo() {
 }
 
 export default titulo;
-
-/*
- style={{ marginTop: "25%", marginBottom: "5px" }}
- 
-<Col>
-            <CiBezier
-              style={{
-                width: "25rem",
-                height: "25rem",
-                marginLeft: "35rem",
-                marginTop: "2rem",
-                color: "red",
-                transform: " rotate(-90deg)",
-                display : "block"
-              }}
-            />
-          </Col>
-
-*/
