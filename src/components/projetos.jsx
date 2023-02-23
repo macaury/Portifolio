@@ -69,10 +69,10 @@ function projetos() {
               })}
             </div>
             <div className="buttons text-center">
-              <Button className=" btL" onClick={handleLeftClick}>
+              <Button className="btL" onClick={handleLeftClick}>
                 <FiChevronLeft />
               </Button>
-              <Button className=" btR" onClick={handleRightClick}>
+              <Button className="btR" onClick={handleRightClick}>
                 <FiChevronRight />
               </Button>
             </div>
