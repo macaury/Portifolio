@@ -14,7 +14,7 @@ function projetos() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("https://macaury.github.io/Portifolio/dist/projetos.json")
+    fetch("https://macaury.github.io/Portifolio/public/projetos.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
@@ -48,7 +48,7 @@ function projetos() {
               {data.map((item) => {
                 const { id, project, image, link, description } = item;
                 return (
-                  <Card className=" card_sty" key={id}>
+                  <Card className="card_sty" key={id}>
                     <Card.Title className="mb-2 card_ti">{project}</Card.Title>
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
