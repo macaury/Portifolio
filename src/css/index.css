@@ -33,7 +33,21 @@
   display: none;
 }
 
-.btL , .btR{
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.btL,
+.btR {
   margin: auto;
   height: 50px;
   border: none;
@@ -41,7 +55,8 @@
   margin: 0 10px;
 }
 
-.btL:hover , .btR:hover{
+.btL:hover,
+.btR:hover {
   background-color: #dc172d;
 }
 
@@ -162,12 +177,11 @@ a:hover {
 
 .card_sty {
   flex: none;
-  width: 25rem ;
+  width: 25rem;
   height: 28rem;
   background-color: var(--secondary-color);
   border: solid 3px var(--secondary-color);
 }
-
 
 .card_sty:hover,
 .hab:hover {
@@ -451,8 +465,6 @@ nav-bar mobile
   #sobre_mim p {
     padding: 20px;
   }
-
-
 
   .hab {
     flex-grow: 1;

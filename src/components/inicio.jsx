@@ -9,10 +9,11 @@ import { CiBezier } from "react-icons/ci";
 import { Typewriter } from "react-simple-typewriter";
 
 
+
 function titulo() {
   return (
     <>
-      <div id="inicio" style={{ paddingBottom: "2%" }}>
+      <div id="inicio" className="hidden" style={{ paddingBottom: "2%" }}>
         <Container>
           <Row className="justify-content-md-center text-center">
             <div className="align-box">

@@ -12,7 +12,7 @@ import { DiGithubBadge } from "react-icons/di";
 function quemSou() {
   return (
     <>
-      <div id="sobre_mim" className="bg_projetos justify-content-center">
+      <div id="sobre_mim" className="bg_projetos justify-content-center hidden">
         <Container>
           <Row style={{ paddingTop: "2%" }}>
             <span

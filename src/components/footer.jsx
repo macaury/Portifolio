@@ -8,7 +8,7 @@ import Container from "react-bootstrap/esm/Container"
 function footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer show">
         <Container>
           <Row className=" justify-content-md-between">
             <Col>
@@ -33,6 +33,7 @@ function footer() {
           </Row>
         </Container>
       </div>
+    <div className="hidden"></div>
     </>
   );
 }

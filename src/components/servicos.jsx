@@ -13,7 +13,7 @@ import Phone from "./icons/phone";
 function servicos() {
   return (
     <>
-      <div id="servicos">
+      <div id="servicos" className="hidden">
         <Container>
           <Row
             className="justify-content-md-between habilidades"

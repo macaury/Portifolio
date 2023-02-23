@@ -32,8 +32,8 @@ function projetos() {
 
   return (
     <>
-      <div id="projetos" className="height_general">
-        <Container>
+      <div id="projetos" className="height_general hidden">
+        <Container >
           <Row>
             <span
               className="titulo text-center linha"
