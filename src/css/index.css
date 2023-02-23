@@ -1,17 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
 * {
   cursor: default;
+  font-family: "Archivo", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
-
-* {
-  font-family: "Archivo", sans-serif;
   word-spacing: 2px;
   word-wrap: inherit;
 }
+
+
+.mr-4{
+  margin: 0 20px 0 0 ;
+  transition-duration: 0.8s;
+}
+
+.mr-4:hover{
+  cursor: pointer;
+}
+
+.Botao_repo {
+  
+  display: block;
+  margin: auto;
+  background-color: var(--teste-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition-duration: 0.4s;
+  padding: 10px 0;
+  width: 350px;
+}
+.Botao_repo:hover{
+  background-color: var(--font-color);
+  animation-duration: 0.4s;
+  border: 1px solid var(--font-color);
+
+}
+
+
 
 .Barra_navegacao span {
   font-weight: 300;
@@ -30,7 +56,7 @@
 
 .titulo {
   font-size: 2.5rem;
-  font-Weight: 600;
+  font-weight: 600;
 }
 
 .coder {
@@ -89,7 +115,7 @@ a:hover {
   cursor: pointer;
 }
 
-.bi {
+.bi ,.mr-4 {
   color: var(--primary-color);
   width: 30px;
   height: 30px;
@@ -279,7 +305,7 @@ a:hover {
   margin: 0 10px;
   cursor: pointer;
   color: #848484;
-} 
+}
 
 .link_inicio:hover,
 .link_sobre_mim:hover,
@@ -323,7 +349,6 @@ nav-bar mobile
 */
 
 @media screen and (max-width: 990px) {
-  
   .logo {
     display: block;
     position: absolute;

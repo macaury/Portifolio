@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function projetos() {
+  const [data, setData] = useState([]);
+  const carousel = useRef();
+
+  useEffect(() => {
+    fetch("http://localhost:5173/public/projetos.json")
+      .then((response) => response.json())
+      .then(setData);
+  }, []);
+
   return (
     <>
       <div id="projetos" className="height_general ">
@@ -21,65 +29,40 @@ function projetos() {
               Projetos
             </span>
 
-            <Card className="card_sty">
-              <Card.Title className="mb-2 card_ti">Green Panther</Card.Title>
-              <Card.Img variant="top" src="https://user-images.githubusercontent.com/64115668/216777142-985ed6c0-ee51-4cdb-95b7-290c0b2350d0.png" />
-              <Card.Body>
-                <Card.Text>
-                  <span>Desenvolvido com ReactJs,Html,Css e Vite.</span>
-                </Card.Text>
-              </Card.Body>
+            <div className="carousel " ref={carousel}>
+              {data.map((item) => {
+                const { id, project, image, link, description } = item;
 
-              <Button
-                className="mb-3 btn_projeto "
-                href="https://macaury.github.io/Green-Panther/"
-                target="_blank"
-              >
-                Visualizar Projeto
-              </Button>
-            </Card>
+                return (
+                  <Col className="card_sty" key={id}>
+                    <Card.Title className="mb-2 card_ti">{project}</Card.Title>
+                    <Card.Img variant="top" src={image} />
+                    <Card.Body>
+                      <Card.Text>
+                        <span>{description}</span>
+                      </Card.Text>
+                    </Card.Body>
 
-            <Card className="card_sty">
-              <Card.Body>
-                <Card.Title className="mb-2 card_ti">Karowara</Card.Title>
-                <Card.Text>
-                  <span>
-                    software criado para auxiliar os professores no ensino de
-                    noções de algoritmo, e facilitar a visualização de
-                    estruturas abstratas básicas. Desenvolvido totalmente em
-                    Java - Desktop.
-                  </span>
-                </Card.Text>
-              </Card.Body>
-              <Button
-                className="mb-3 btn_projeto"
-                href="https://github.com/macaury/karowara"
-                target="_blank"
-              >
-                Visualizar Projeto
-              </Button>
-            </Card>
-
-            <Card className="card_sty">
-              <Card.Title className="mb-2 card_ti">Ranking Movies</Card.Title>
-              <Card.Img
-                variant="top"
-                src="https://user-images.githubusercontent.com/64115668/197311438-a9878d71-4da1-4b57-8b83-2451ff11c253.jpeg"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <span>Desenvolvido com API:The Movie Db,ReactJs,Html,Css,Vite.</span>
-                </Card.Text>
-              </Card.Body>
-              <Button
-                className="mb-3 btn_projeto"
-                href="https://github.com/macaury/ranking_movies"
-                target="_blank"
-              >
-                Visualizar Projeto
-              </Button>
-            </Card>
+                    <Button
+                      className="mb-3 btn_projeto "
+                      href={link}
+                      target="_blank"
+                    >
+                      Visualizar Projeto
+                    </Button>
+                  </Col>
+                );
+              })}
+            </div>
           </Row>
+
+          <Button
+            className="Botao_repo mt-4"
+            href="https://github.com/macaury"
+            target="_blank"
+          >
+            Visualizar Repositorio
+          </Button>
         </Container>
       </div>
     </>
