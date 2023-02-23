@@ -14,7 +14,7 @@ function projetos() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("https://macaury.github.io/Portifolio/public/projetos.json")
+    fetch("https://macaury.github.io/Portifolio/dist/projetos.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
