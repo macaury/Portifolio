@@ -9,13 +9,47 @@
   word-wrap: inherit;
 }
 
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--primary-color) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.btL , .btR{
+  margin: auto;
+  height: 50px;
+  border: none;
+  background-color: var(--primary-color);
+  margin: 0 10px;
+}
+
+.btL:hover , .btR:hover{
+  background-color: #dc172d;
+}
+
 .carousel {
   display: flex;
-  flex-direction: row;
-  flex: none !important;
   overflow-x: auto;
   scroll-behavior: smooth;
-  width: 100% !important;
+  width: 100%;
 }
 
 .mr-4 {
@@ -127,19 +161,17 @@ a:hover {
 }
 
 .card_sty {
-  width: 25rem;
-  height: 25rem;
+  flex: none;
+  width: 25rem ;
+  height: 28rem;
   background-color: var(--secondary-color);
-  border: solid 2px var(--secondary-color);
+  border: solid 3px var(--secondary-color);
 }
 
-.card_sty:hover {
-  transform: scale(1.1);
-}
 
 .card_sty:hover,
 .hab:hover {
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   border-radius: 20px;
   transition-duration: 0.8s;
 }
@@ -156,13 +188,12 @@ a:hover {
   margin: 20px;
   border-radius: 10px;
   transition: all 0.8s;
-  position: inherit;
 }
 
 /*Estilo Cards section Serviços*/
 
 .card_serv {
-  width: 20rem;
+  width: 25rem;
   height: 18rem;
   background-color: var(--tertiary-color);
   border: solid 2px var(--tertiary-color);
@@ -421,17 +452,7 @@ nav-bar mobile
     padding: 20px;
   }
 
-  .card_sty {
-    margin: 20px !important;
-    margin-top: 30px;
-    width: 180px !important;
-    height: 25rem;
-    padding: 25px;
-  }
-  .card_sty:hover {
-    transform: none;
-    height: 25rem;
-  }
+
 
   .hab {
     flex-grow: 1;
