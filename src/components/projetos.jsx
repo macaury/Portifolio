@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -17,9 +18,9 @@ function projetos() {
 
   return (
     <>
-      <div id="projetos" className="height_general ">
+      <div id="projetos" className="height_general">
         <Container>
-          <Row className="justify-content-md-between">
+          <Row>
             <span
               className="titulo text-center linha"
               style={{
@@ -29,28 +30,31 @@ function projetos() {
               Projetos
             </span>
 
-            <div className="carousel " ref={carousel}>
+            <div className="carousel" ref={carousel}>
               {data.map((item) => {
                 const { id, project, image, link, description } = item;
-
                 return (
-                  <Col className="card_sty" key={id}>
-                    <Card.Title className="mb-2 card_ti">{project}</Card.Title>
-                    <Card.Img variant="top" src={image} />
-                    <Card.Body>
-                      <Card.Text>
-                        <span>{description}</span>
-                      </Card.Text>
-                    </Card.Body>
+                  <Card className=" card_sty" key={id}>
+                    <Col>
+                      <Card.Title className="mb-2 card_ti">
+                        {project}
+                      </Card.Title>
+                      <Card.Img variant="top" src={image} />
+                      <Card.Body>
+                        <Card.Text>
+                          <span>{description}</span>
+                        </Card.Text>
+                      </Card.Body>
 
-                    <Button
-                      className="mb-3 btn_projeto "
-                      href={link}
-                      target="_blank"
-                    >
-                      Visualizar Projeto
-                    </Button>
-                  </Col>
+                      <Button
+                        className="mb-3 btn_projeto "
+                        href={link}
+                        target="_blank"
+                      >
+                        Visualizar Projeto
+                      </Button>
+                    </Col>
+                  </Card>
                 );
               })}
             </div>
