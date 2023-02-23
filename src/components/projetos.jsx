@@ -32,7 +32,7 @@ function projetos() {
 
   return (
     <>
-      <div id="projetos" className="height_general hidden">
+      <div id="projetos" className="height_general ">
         <Container >
           <Row>
             <span

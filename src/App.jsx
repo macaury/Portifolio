@@ -11,6 +11,7 @@ import Quem_sou from "./components/sobre_mim";
 import "./css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+/*
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
@@ -20,8 +21,9 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el))
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+*/
 
 function App() {
   return (

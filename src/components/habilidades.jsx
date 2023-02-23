@@ -21,7 +21,7 @@ function tecnologias() {
 
   return (
     <>
-      <div id="habilidades" className="height_general hidden">
+      <div id="habilidades" className="height_general ">
         <Container>
           <Row className="justify-content-md-between">
             <Col xl md="3" className="habilidade_text">
