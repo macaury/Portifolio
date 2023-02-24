@@ -378,11 +378,7 @@ a:hover {
 
 .profile_pict {
   margin: auto;
-  display: block !important;
-  width: 250px !important;
-  height: 250px !important;
-  background-repeat: no-repeat;
-  background-image: url("../components/icons/img.png");
+  display: block ;
 }
 
 .align-box {
