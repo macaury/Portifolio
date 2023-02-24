@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 import { FiChevronLeft } from "react-icons/fi";
 import { FiChevronRight } from "react-icons/fi";
 
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 
 function projetos() {
   const [data, setData] = useState([]);

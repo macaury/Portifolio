@@ -5,12 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { DiJava } from "react-icons/di";
-
 import { DiCss3 } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
-
 import { SiJavascript } from "react-icons/si";
-
 import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";

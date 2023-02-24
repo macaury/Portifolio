@@ -3,18 +3,15 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
 
 import { Link } from "react-scroll";
 
 import { DiGithubBadge } from "react-icons/di";
-
 import { FaLinkedin } from "react-icons/fa";
-
-import Menu from "./icons/menu";
-
 import { GrClose } from "react-icons/gr";
 
-import Button from "react-bootstrap/Button";
+import Menu from "./assets/menu";
 
 const Barra_nav = () => {
   const [isMobile, setMobile] = useState(false);

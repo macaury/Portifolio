@@ -4,11 +4,9 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 
-
-
-import Computer from "./icons/computer";
-import Design from "./icons/design";
-import Phone from "./icons/phone";
+import Computer from "./assets/computer";
+import Design from "./assets/design";
+import Phone from "./assets/phone";
 
 function servicos() {
   return (

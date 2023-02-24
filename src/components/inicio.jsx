@@ -8,8 +8,6 @@ import { CiBezier } from "react-icons/ci";
 
 import { Typewriter } from "react-simple-typewriter";
 
-
-
 function titulo() {
   return (
     <>

@@ -28,6 +28,7 @@ function quemSou() {
             <Col xs md="7" sm="5">
               <div className="text-center">
                 <div className="profile_pict " />
+                <img src="" alt="" />
               </div>
             </Col>
             <Col xs md="5" sm="7">
