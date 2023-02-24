@@ -42,7 +42,7 @@ function servicos() {
               </Card.Body>
             </Card>
 
-            <Card className="card_serv" style={{ background: "white" }}>
+            <Card className="card_serv">
               <Card.Body>
                 <div>
                   <Computer />

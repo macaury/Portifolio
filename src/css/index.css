@@ -11,7 +11,7 @@
 
 * {
   scrollbar-width: auto;
-  scrollbar-color: var(--primary-color) #ffffff;
+  scrollbar-color: var(--primary-color) var(--tertiary-color);
 }
 
 /* Chrome, Edge, and Safari */
@@ -20,13 +20,13 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: var(--bg-light);
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border-radius: 10px;
-  border: 3px solid #ffffff;
+  border: 1px solid var(--tertiary-color);
 }
 
 .carousel::-webkit-scrollbar {
@@ -79,15 +79,17 @@
 .Botao_repo {
   display: block;
   margin: auto;
-  background-color: var(--teste-color);
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: var(--bg-light);
+  color: var(--font-color);
+  border-color: var(--bg-light) ;
+  border-bottom: 1px solid var(--primary-color);
+  border-radius: 35px;
   transition-duration: 0.4s;
   padding: 10px 0;
   width: 350px;
 }
 .Botao_repo:hover {
-  background-color: var(--font-color);
+  background-color: var(--secondary-color);
   animation-duration: 0.4s;
   border: 1px solid var(--font-color);
 }
@@ -100,9 +102,7 @@
   font-weight: 600;
   font-size: 2.4rem;
 }
-.titulo_inicio span {
-  color: var(--primary-color);
-}
+
 .titulo p span {
   font-weight: 200;
 }
@@ -145,12 +145,14 @@ a:hover {
 .titulo,
 .nav-link:hover,
 .active:hover {
-  color: var(--primary-color);
+  color: var(--font-color);
 }
 
-.titulo p span,
 .coder span {
-  color: var(--primary-color);
+  color: var(--font-dark);
+}
+ .titulo_inicio span  {
+color: #EC4B5D;
 }
 
 .cite_scroll {
@@ -170,9 +172,13 @@ a:hover {
 
 .bi,
 .mr-4 {
-  color: var(--primary-color);
+  color: var(--font-color);
   width: 30px;
   height: 30px;
+}
+img{
+  filter: gray;
+-webkit-filter: grayscale(100%);
 }
 
 .card_sty {
@@ -181,13 +187,20 @@ a:hover {
   height: 28rem;
   background-color: var(--secondary-color);
   border: solid 3px var(--secondary-color);
+  color: var(--font-light);
+}
+.card_sty:hover{
+  background-color: var(--bg-light);
+  border: 2px solid var(--primary-color);
+  color: var(--font-color);
+  transition-duration: 0.8s;
+
 }
 
-.card_sty:hover,
+
 .hab:hover {
   border: 2px solid var(--primary-color);
   border-radius: 20px;
-  transition-duration: 0.8s;
 }
 
 .hab:hover {
@@ -214,7 +227,7 @@ a:hover {
 }
 
 .card_serv:hover {
-  border: solid 2px var(--primary-color);
+  border: solid 2px var(--border-light);
   animation-duration: 1ms;
   transition-duration: 0.8s;
 }
@@ -230,14 +243,18 @@ a:hover {
   font-size: 18px;
 }
 
+.Barra_navegacao{
+  background-color: var(--bg-light);
+}
+
 .card_ti {
   font-size: 25px;
-  color: var(--primary-color);
+  color: var(--font-color);
 }
 
 #inicio {
   height: 63rem;
-  background-color: var(--tertiary-color);
+  background-color: var(--bg-light);
 }
 .hab,
 .card_sty,
@@ -245,12 +262,26 @@ a:hover {
   transition: all 0.5s;
 }
 
-.bg_projetos {
+.bg_projetos{
   height: 50%;
 }
 
+#sobre_mim {
+background-color: var(--secondary-color);
+color: var(--font-light);
+padding-bottom: 5%;
+width: 100%;
+}
+#sobre_mim svg {
+  color: var(--bg-light);
+}
+
+#servicos  .titulo , .card_serv{
+  color: var(--font-light);
+}
+
 #servicos,
-.bg_projetos {
+.bg_projetos{
   background-color: var(--secondary-color);
   padding-bottom: 5%;
   width: 100%;
@@ -260,11 +291,11 @@ a:hover {
   padding-top: 1rem;
   padding-bottom: 1rem;
   height: 10%;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   position: inherit;
 }
 .footer a {
-  color: black;
+  color: var(--font-light);
 }
 .No_bg .logo span {
   font-weight: 900;
@@ -272,33 +303,28 @@ a:hover {
 }
 
 .logo span {
-  color: var(--primary-color);
+  color: var(--font-color);
 }
 
 .btn_projeto {
-  background-color: var(--tertiary-color);
-  border-color: var(--tertiary-color);
+  background-color: var(--bg-light);
+  color: var(--font-dark);
+  border-radius: 30px;
+  width: 100%;
+  border: none;
 }
 
 .btn_projeto:hover {
   background-color: var(--primary-color);
-  border-color: var(--tertiary-color);
-  color: var(--tertiary-color);
-  border: solid 1px var(--primary-color);
+  color: var(--font-light);
   transition-duration: 0.8s;
-  animation-duration: 1ms;
+  animation-duration: 0.8s;
   border-radius: 15px;
 }
-.btn_projeto {
-  background-color: var(--tertiary-color);
-  color: var(--primary-color);
-  border-radius: 30px;
-  border-bottom: solid 0.5px var(--primary-color);
-  width: 100%;
-}
+
 
 .icon_habilidade svg {
-  color: var(--tertiary-color);
+  color: var(--bg-light);
   height: 7rem;
   width: 7rem;
 }
@@ -365,14 +391,14 @@ a:hover {
 }
 
 .mobile_menu {
-  background-color: white;
+  background-color: var(--tertiary-color);
   display: none;
   transition: all 0.8s;
 }
 
 .mobile_menu:hover {
   border: 1.5px solid var(--primary-color) !important;
-  color: white;
+  color: var(--font-color);
   transition-duration: 0.8s;
 }
 
@@ -422,7 +448,7 @@ nav-bar mobile
   .link_projetos,
   .link_servicos,
   .link_habilidades {
-    color: white;
+    color: var(--font-color);
     text-align: center;
     padding: 32px;
     width: 100%;

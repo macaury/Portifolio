@@ -26,7 +26,7 @@ function tecnologias() {
                 Habilidades
               </span>
 
-              <p className="mudarDescricao" style={{ color: "gray" }}>
+              <p className="mudarDescricao">
               </p>
             </Col>
             <Col xl md="9" className="habilidade_group">

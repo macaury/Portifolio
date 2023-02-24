@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
 import { FiChevronLeft } from "react-icons/fi";
 import { FiChevronRight } from "react-icons/fi";
 
@@ -68,7 +68,7 @@ function projetos() {
                 );
               })}
             </div>
-            <div className="buttons text-center">
+            <div className="buttons text-center mb-4">
               <Button className="btL" onClick={handleLeftClick}>
                 <FiChevronLeft />
               </Button>
@@ -83,7 +83,7 @@ function projetos() {
             href="https://github.com/macaury"
             target="_blank"
           >
-            Visualizar Repositorio
+             Repositorio GitHub
           </Button>
         </Container>
       </div>

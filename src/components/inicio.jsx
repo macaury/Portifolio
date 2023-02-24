@@ -34,8 +34,7 @@ function titulo() {
                 </div>
                 <Row>
                   <cite>
-                    - Permita-se e gire o scroll do mouse para saber mais sobre
-                    mim
+                    - Transformando linhas de código em experiências incríveis para o usuário 
                   </cite>
                 </Row>
               </Col>
